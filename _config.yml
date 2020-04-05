@@ -80,15 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  name             : "Moritz Schwarz"
+  avatar           : "4662-2030-Moritz_Schwarz (3).jpg"
+  bio              : "Climate Economist | Data Science | International Negotiations"
+  location         : "Oxford, UK"
+  employer         : "Climate Econometrics and Institute for New Economic Thinking, University of Oxford"
+  googlescholar    : "https://scholar.google.com/citations?user=-j4hwZAAAAAJ&hl=de"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Moritz_Schwarz5"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "moritzpschwarz"
   google_plus      :
   keybase          :
   instagram        :
