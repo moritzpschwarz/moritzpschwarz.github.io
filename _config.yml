@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Moritz P. Schwarz / Moritz P. Schwarz"
+title                    : "Moritz P. Schwarz / Climate Economist"
 title_separator          : "-"
 name                     : &name "Moritz Schwarz"
 description              : &description "personal description"
@@ -102,13 +102,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-0340-3780"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "moritzpschwarz"
   vine             :
   weibo            :
   xing             :
