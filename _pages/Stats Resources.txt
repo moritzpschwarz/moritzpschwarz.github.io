@@ -1,0 +1,30 @@
+Teaching and R Resources
+
+Panel data econometrics in R: the plm package
+https://cran.r-project.org/web/packages/plm/vignettes/plmPackage.html
+
+Statistics Resources: 
+
+r-econometrics
+https://www.r-econometrics.com/
+
+Econometric Computing Learning Resource (ECLR) Manchester University
+http://eclr.humanities.manchester.ac.uk/index.php/Main_Page
+
+
+Slide Set
+Econometric Methods for Panel Data
+Based on the books by Baltagi: Econometric Analysis of Panel Data and by Hsiao: Analysis of Panel Data
+Robert M. Kunst
+https://homepage.univie.ac.at/robert.kunst/panpres2.pdf
+
+
+An Introduction to Vector Autoregression (VAR)
+https://www.r-econometrics.com/timeseries/varintro/
+
+VAR, SVAR and SVEC Models: Implementation Within R Package vars
+https://cran.r-project.org/web/packages/vars/vignettes/vars.pdf
+
+Practical notes on panel data models with interactive effects
+Bai, Jushan and Li, Kunpeng
+https://mpra.ub.uni-muenchen.de/81087/1/MPRA_paper_81087.pdf
