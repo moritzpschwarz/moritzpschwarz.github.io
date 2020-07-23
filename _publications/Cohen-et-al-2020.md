@@ -8,6 +8,7 @@ venue: 'Forthcoming in Environmental and Resource Economics'
 paperurl: 'https://www.smithschool.ox.ac.uk/publications/wpapers/workingpaper20-06.pdf'
 citation: 'Cohen, F., Schwarz, M., Li, S., Lu, Y., Jani, A. (2020). The Challenge of Using Epidemiological Case Count Data: The Example of Confirmed COVID-19 Cases and the Weather. <i>Forthcoming in Environmental and Resource Economics</i>.'
 ---
+Data and Code: [Github](https://github.com/moritzpschwarz/COVID-19-weather-Oxford)
 
 [Weblink](https://www.smithschool.ox.ac.uk/publications/wpapers/workingpaper20-06.pdf)
 
