@@ -10,7 +10,7 @@ excerpt: 'The publicly available data on COVID-19 cases provides an opportunity 
 [Press release by the Oxford Martin School](https://www.oxfordmartin.ox.ac.uk/news/warmer-weather-covid-19/)
 
 <ul>
-<li> [The Conversation (written by the authors): Why we cant tell if warmer weather slows down the spread of coronavirus](https://theconversation.com/why-we-cant-tell-if-warmer-weather-slows-down-the-spread-of-coronavirus-142950) </li>
+<li> <a href="https://theconversation.com/why-we-cant-tell-if-warmer-weather-slows-down-the-spread-of-coronavirus-142950">The Conversation (written by the authors): Why we cant tell if warmer weather slows down the spread of coronavirus</a>[](https://theconversation.com/why-we-cant-tell-if-warmer-weather-slows-down-the-spread-of-coronavirus-142950) </li>
 <li> [Daily Mail: Will Covid-19 REALLY be worse this winter? Scientists admit it is currently IMPOSSIBLE to prove the coronavirus spreads slower in the summer](https://www.dailymail.co.uk/news/article-8548099/Will-Covid-19-REALLY-worse-winter-Scientists-say-currently-impossible-tell.html)</li>
 <li>[Evening Standard: Impossible to know if warmer weather slows spread of coronavirus using current data, study finds](https://www.standard.co.uk/news/uk/coronavirus-spread-warmer-and-colder-weather-study-oxford-university-a4506126.html) </li>
 <li> [The Telegraph: Coronavirus spread may not be slowed down by warm weather, scientists warn](https://www.telegraph.co.uk/news/2020/07/23/coronavirus-spread-may-notbe-slowed-warm-weather-scientists/) </li>
