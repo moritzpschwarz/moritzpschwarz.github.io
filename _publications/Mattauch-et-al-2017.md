@@ -8,9 +8,9 @@ excerpt: 'Die internationale Staatengemeinschaft hat die Dekarbonisierung der Wi
 date: 2017-10-03
 venue: 'Wirtschaftspolitische Blätter'
 paperurl: 'https://www.wko.at/site/WirtschaftspolitischeBlaetter/mattauch-et-al.pdf'
-citation: 'Mattauch, L., Roesti, M.,Schwarz, M.and Siegmeier J. (2017). Wirtschaftswachstumund Klimawandel: Chancen und Herausforderungen auf dem Weg zur klimafreundlichenGesellschaft. <i>Wirtschaftspolitische Blätter</i>. 3/2017.'
+citation: 'Mattauch, L., Roesti, M., Schwarz, M. and Siegmeier J. (2017). Wirtschaftswachstumund Klimawandel: Chancen und Herausforderungen auf dem Weg zur klimafreundlichenGesellschaft. <i>Wirtschaftspolitische Blätter</i>. 3/2017.'
 ---
 [Weblink](https://www.wko.at/site/WirtschaftspolitischeBlaetter/mattauch-et-al.pdf)
 
-Recommended citation: Mattauch, L., Roesti, M.,Schwarz, M.and Siegmeier J. (2017). Wirtschaftswachstumund Klimawandel: Chancen und Herausforderungen auf dem Weg zur klimafreundlichenGesellschaft. <i>Wirtschaftspolitische Blätter</i>. 3/2017.
+Recommended citation: Mattauch, L., Roesti, M., Schwarz, M. and Siegmeier J. (2017). Wirtschaftswachstumund Klimawandel: Chancen und Herausforderungen auf dem Weg zur klimafreundlichenGesellschaft. <i>Wirtschaftspolitische Blätter</i>. 3/2017.
 
