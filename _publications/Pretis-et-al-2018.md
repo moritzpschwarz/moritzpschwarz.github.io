@@ -25,4 +25,13 @@ citation: 'Pretis, F., Schwarz, M., Tang, K., Haustein, K., & Allen, M. R. (2018
 
 [Weblink](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0460)
 
+Economic Impacts of 2°C relative to ‘no additional warming’:
+<iframe src="https://ourworldindata.org/grapher/econimpact2c" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+
+Economic Impacts of 1.5°C relative to ‘no additional warming’:
+<iframe src="https://ourworldindata.org/grapher/econimpact15c" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+
+
 Recommended citation: Pretis, F., Schwarz, M., Tang, K., Haustein, K., & Allen, M. R. (2018). Uncertain impacts on economic growth when stabilizing global temperatures at 1.5 C or 2 C warming. <i>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</i>, 376(2119), 20160460.
