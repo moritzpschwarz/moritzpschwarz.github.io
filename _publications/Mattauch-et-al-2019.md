@@ -6,10 +6,11 @@ excerpt: 'Derzeit wird in Deutschland daher kontrovers diskutiert, ob und wie CO
 <br>[Online Version]("https://www.scientists4future.org/2019/08/co2-preis-klimafreundliche-gesellschaft/")<br>'
 date: 2019-08-22
 venue: 'Diskussionsbeiträge der scientists for future'
-paperurl: '<a href="https://doi.org/10.5281/zenodo.3644498"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3644498.svg" alt="DOI"></a>'
+paperurl: 'https://doi.org/10.5281/zenodo.3644498'
 citation: 'Mattauch, L., Creutzig, F., aus dem Moore, N., Franks, M., Funke, F., Jakob, M., Sager, L., Schwarz, M., Voß, A., Beck, M. L., Daub, C. H., Drupp, M., Ekardt, F., Hagedorn, G., Kirchner, M., Kruse, T., Loew, T., Neuhoff, K., Neuweg, I., Peterson, S., Roesti, M., Schneider, G., Schmidt, R., Schwarze, R., Siegmeier, J., Thalmann, P., Wallacher, J. (2019). Antworten auf zentrale Fragen zur Einführung von CO<sub>2</sub>-Preisen. Gestaltungsoptionen und ihre Auswirkungen für den schnellen Übergang in die klimafreundliche Gesellschaft. (Version 2). <i>Diskussionsbeiträge der scientists for future</i>.'
 ---
 
+<a href="https://doi.org/10.5281/zenodo.3644498"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3644498.svg" alt="DOI"></a>
 
 [Paper Weblink (Version 2, January 2020)](http://doi.org/10.5281/zenodo.3371150)
 
