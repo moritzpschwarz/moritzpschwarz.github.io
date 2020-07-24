@@ -9,8 +9,11 @@ excerpt: 'Empirical evidence suggests that variations in climate affect economic
 <br>Press Coverage<br>
 
 - Carbon Brief: <a href="https://www.carbonbrief.org/limiting-global-warming-1point5-celcius-would-have-significant-economic-benefits">Limiting global warming to 1.5C would have significant economic benefits</a>
+
 - Yale Climate Connections: <a href="https://www.yaleclimateconnections.org/2019/04/researcher-tackling-climate-will-help-protect-economy/">Researcher: Tackling climate change will help protect the economy</a>
+
 - El Pais: <a href="https://www.elpais.com.uy/vida-actual/subida-temperaturas-tendra-importantes-consecuencias.html">Una subida de las temperaturas de 2°C tendrá importantes consecuencias</a>
+
 - Several others (e.g. The Independent, Daily Mail, etc.) see <a href="https://royalsociety.altmetric.com/details/35119425/news">here</a>
 
 '
