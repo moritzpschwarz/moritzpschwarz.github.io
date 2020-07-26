@@ -3,7 +3,7 @@ title: "R Coding Link Collection"
 collection: teaching
 type: "Coding"
 permalink: /teaching/R-code-collection
-<!--venue: "University 1, Department"-->
+# "University 1, Department"
 date: 2020-07-26
 <!--location: "City, Country"-->
 ---
