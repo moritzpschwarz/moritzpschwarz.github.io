@@ -5,7 +5,7 @@ type: "Coding"
 permalink: /teaching/R-code-collection
 # "University 1, Department"
 date: 2020-07-26
-<!--location: "City, Country"-->
+# location: "City, Country"
 ---
 
 This is a simply collection of resources that I find useful. In the future, this site will feature more extensive discussions about R, stata, GitHub and python coding practices. 
