@@ -39,3 +39,16 @@ Based on the books by Baltagi: Econometric Analysis of Panel Data and by Hsiao: 
 [An Introduction to Vector Autoregression (VAR)](https://www.r-econometrics.com/timeseries/varintro/)
 
 [VAR, SVAR and SVEC Models: Implementation Within R Package vars](https://cran.r-project.org/web/packages/vars/vignettes/vars.pdf)
+
+
+# Advanced R
+
+## Testing and Debugging
+
+traceback(), debug() and browser() [Demo](https://github.com/karawoo/sage-r-debugging-demo) by Kara Woo
+
+## Data Science Worksflow
+[How to structure a data science project](https://mdneuzerling.com/post/data-science-workflows/) by David Neuzerling
+
+## Website Building
+[10 minute intodruction to caladown](https://www.youtube.com/watch?time_continue=1&v=HtQhG80MKQE&feature=emb_logo) to build websites, by Danielle Navarro
