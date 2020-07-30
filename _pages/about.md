@@ -18,7 +18,7 @@ I am based at the School of Geography and Environment and am associated with the
 
 As a Clarendon Scholar, my DPhil is supported by the Clarendon Fund, while my research is supervised by Prof Sir David F Hendry and Prof Cameron Hepburn.
 
-This website is currently under development. You can find my publication list [here]("_publications").
+This website is currently under development. You can find my publication list [here](_publications).
 
 <!-- My research, under the supervision of Prof Cameron Hepburn and Prof Sir David Hendry, focuses on the macro-econometric estimation of climate impacts. Further research interests include spatial econometrics and remote-sensing.
 I holds a degree from the London School of Economics and Political Science and an MSc from Oxford’s Environmental Change Institute. Before continuing his studies at Oxford, he worked for the Austrian government and coordinated the activities in international environmental negotiations associated with Austria’s Presidency of the Council of the EU in 2018 (with a focus on climate, biodiversity, whaling and governance negotiations).
