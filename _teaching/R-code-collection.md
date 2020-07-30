@@ -52,3 +52,7 @@ traceback(), debug() and browser() [Demo](https://github.com/karawoo/sage-r-debu
 
 ## Website Building
 [10 minute intodruction to caladown](https://www.youtube.com/watch?time_continue=1&v=HtQhG80MKQE&feature=emb_logo) to build websites, by Danielle Navarro
+
+
+# Teaching R
+[Randomize Exam using Sweave](https://core.ac.uk/reader/16376348) by D.S. Gómez, J. Mulero, M.J. Nueda, M.D. Molina, A. Pascual
