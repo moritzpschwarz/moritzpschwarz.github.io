@@ -12,11 +12,11 @@ redirect_from:
 
 Welcome to my personal website
 ======
-I am a DPhil (PhD) student at the University of Oxford and my research focuses on the econometric estimation of future economic impacts of climate change. Further research interests include the effectiveness of climate policy, especially carbon pricing based mitigation policy. In my research, I make ample use of econometric time series and panel methods. 
+I am a Climate Economist based at the University of Oxford, currently pursuing my DPhil (PhD) in the field of Climate Econometrics. My research focuses on the econometric estimation of future economic impacts of climate change, while further research interests include the effectiveness of climate policy, especially carbon pricing based mitigation policy. In my research, I make ample use of econometric time series and panel methods and contribute to the development of open-source estimation software, such as the [gets R-package](https://cran.r-project.org/web/packages/gets/index.html). 
+
+I am based at the School of Geography and Environment and am associated with the [Climate Econometrics](https://www.climateeconometrics.org/) project at Nuffield College as well as with the [Insitute for New Economic Thinking at the Oxford Martin School]("https://www.inet.ox.ac.uk/") and the [Smith School of Enterprise and the Environment]("https://www.smithschool.ox.ac.uk/").
 
 As a Clarendon Scholar, my DPhil is supported by the Clarendon Fund, while my research is supervised by Prof Sir David F Hendry and Prof Cameron Hepburn.
-
-I study at the School of Geography and Environment and am associated with the [Climate Econometrics](https://www.climateeconometrics.org/) project at Nuffield College as well as with the [Insitute for New Economic Thinking at the Oxford Martin School]("https://www.inet.ox.ac.uk/") and the [Smith School of Enterprise and the Environment]("https://www.smithschool.ox.ac.uk/").
 
 This website is currently under development.
 
