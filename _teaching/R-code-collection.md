@@ -22,6 +22,8 @@ This is a simply collection of resources that I find useful. In the future, this
 
 [Econometric Computing Learning Resource (ECLR) Manchester University](http://eclr.humanities.manchester.ac.uk/index.php/Main_Page)
 
+[R Tutorials for Applied Statistics](https://murraylax.org/rtutorials/) by James Murray
+
 ======
 
 ## Panel Data Econometrics
@@ -50,9 +52,17 @@ traceback(), debug() and browser() [Demo](https://github.com/karawoo/sage-r-debu
 ## Data Science Worksflow
 [How to structure a data science project](https://mdneuzerling.com/post/data-science-workflows/) by David Neuzerling
 
+[Organising your work in RMarkdown](https://www.r-bloggers.com/first-world-problems-very-long-rmarkdown-documents/)
+Original Title: First World Problems: Very long RMarkdown documents by Martin Chan
+
 ## Website Building
 [10 minute intodruction to caladown](https://www.youtube.com/watch?time_continue=1&v=HtQhG80MKQE&feature=emb_logo) to build websites, by Danielle Navarro
 
 
 # Teaching R
 [Randomize Exam using Sweave](https://core.ac.uk/reader/16376348) by D.S. Gómez, J. Mulero, M.J. Nueda, M.D. Molina, A. Pascual
+
+# LaTex
+[LaTeX Best Practices](https://github.com/simonharrer/latex-best-practices#special-commands) by Simon Harrer
+
+[Advice for writing LaTeX documents](https://github.com/dspinellis/latex-advice) by Diomidis Spinellis
