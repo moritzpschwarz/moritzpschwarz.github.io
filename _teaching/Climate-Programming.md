@@ -8,6 +8,7 @@ date: 2020-09-05
 # location: "City, Country"
 ---
 
+A collection of packages, code snippets and gists to import, modify, and analyse Climate Data.
 
 # Importing Climate Data
 
