@@ -11,7 +11,7 @@ date: 2020-09-05
 
 # Importing Climate Data
 
-Import Cropland Data into R using **\texttt{CropScapeR}** by Bowen Chen
+Import Cropland Data into R using **CropScapeR** by Bowen Chen
 
 <!-- ```{r tweet-from-dsquintana} -->
 <!-- include_tweet("https://twitter.com/bwchen0719/status/1289772962879434754?s=20") -->
