@@ -42,6 +42,7 @@ Based on the books by Baltagi: Econometric Analysis of Panel Data and by Hsiao: 
 
 [VAR, SVAR and SVEC Models: Implementation Within R Package vars](https://cran.r-project.org/web/packages/vars/vignettes/vars.pdf)
 
+[VAR and the Johansen Test for Cointegration in R](https://www.quantstart.com/articles/Johansen-Test-for-Cointegrating-Time-Series-Analysis-in-R/)
 
 # Advanced R
 
