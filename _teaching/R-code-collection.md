@@ -85,3 +85,12 @@ And this one:
 [LaTeX Best Practices](https://github.com/simonharrer/latex-best-practices#special-commands) by Simon Harrer
 
 [Advice for writing LaTeX documents](https://github.com/dspinellis/latex-advice) by Diomidis Spinellis
+
+
+==========
+
+# Visualisations
+
+
+## Tables
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every time I see long tables full of numbers, a little piece of my love for numbers flies away. <br>Please consider <a href="https://twitter.com/StatModeling?ref_src=twsrc%5Etfw">@StatModeling</a> parallel dot plots instead!<a href="https://t.co/pQ127rOpbR">https://t.co/pQ127rOpbR</a><br>Code: <a href="https://t.co/rTu4wATYpY">https://t.co/rTu4wATYpY</a> <a href="https://t.co/lC1LfkWtkR">https://t.co/lC1LfkWtkR</a> <a href="https://t.co/eiA06BB0hH">pic.twitter.com/eiA06BB0hH</a></p>&mdash; Julyan Arbel (@JulyanArbel) <a href="https://twitter.com/JulyanArbel/status/1301816176339832832?ref_src=twsrc%5Etfw">September 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
