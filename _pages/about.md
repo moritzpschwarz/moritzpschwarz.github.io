@@ -21,7 +21,7 @@ As a Clarendon Scholar, my DPhil is supported by the Clarendon Fund, while my re
 This website is currently under development. You can find my publication list [here](https://moritzpschwarz.github.io/publications/).
 
 
-<a class="twitter-timeline" data-width="1000" data-height="1000" data-dnt="true" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets by MoritzPSchwarz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-lang="en" data-width="500" data-height="800" data-dnt="true" data-theme="light" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets by MoritzPSchwarz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- My research, under the supervision of Prof Cameron Hepburn and Prof Sir David Hendry, focuses on the macro-econometric estimation of climate impacts. Further research interests include spatial econometrics and remote-sensing.
 I holds a degree from the London School of Economics and Political Science and an MSc from Oxford’s Environmental Change Institute. Before continuing his studies at Oxford, he worked for the Austrian government and coordinated the activities in international environmental negotiations associated with Austria’s Presidency of the Council of the EU in 2018 (with a focus on climate, biodiversity, whaling and governance negotiations).
