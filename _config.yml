@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Moritz P. Schwarz | Oxford Climate Economist"
+title                    : "Moritz P. Schwarz | Climate Economist"
 title_separator          : "-"
 name                     : &name "Moritz P. Schwarz"
-description              : &description "personal description"
+description              : &description "Moritz P. Schwarz Oxford Climate Economist"
 url                      : https://moritzpschwarz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "moritzpschwarz/moritzpschwarz.github.io"
@@ -86,7 +86,7 @@ author:
   location         : "Oxford, UK"
   employer         : "Climate Econometrics <br /> Institute for New Economic Thinking <br /> University of Oxford"
   googlescholar    : "https://scholar.google.com/citations?user=-j4hwZAAAAAJ&hl=de"
-  email            :
+  email            : "moritz.schwarz@ouce.ox.ac.uk"
   researchgate     : "https://www.researchgate.net/profile/Moritz_Schwarz5"
   uri              :
   bitbucket        :
@@ -105,7 +105,7 @@ author:
   orcid            : "https://orcid.org/0000-0003-0340-3780"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://stackoverflow.com/story/moritzpschwarz"
   steam            :
   tumblr           :
   twitter          : "moritzpschwarz"
