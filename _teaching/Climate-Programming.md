@@ -33,8 +33,11 @@ Import Cropland Data into R using **CropScapeR** by Bowen Chen
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Pleased to announce the CropScapeR Version 1.1, which can now download cropland data for an entire state (e.g., Illinois👇) or any user-specified area. Visit the package website for more details: <a href="https://t.co/wanSdAyxhw">https://t.co/wanSdAyxhw</a> <a href="https://t.co/tN0e8A6mbH">pic.twitter.com/tN0e8A6mbH</a></p>&mdash; Bowen Chen (@bwchen0719) <a href="https://twitter.com/bwchen0719/status/1289772962879434754?ref_src=twsrc%5Etfw">August 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<br>
 # Weather Forecasting
+
 
 [An introduction to weather forecasting with deep learning by RStudio](https://blogs.rstudio.com/ai/posts/2020-09-01-weather-prediction/):
 
 Global weather is a chaotic system, but of much higher complexity than many tasks commonly addressed with machine and/or deep learning. In this post, Sigrid Keydana from the RStudio team provides a practical introduction featuring a simple deep learning baseline for atmospheric forecasting. While far away from being competitive, it serves to illustrate how more sophisticated and compute-intensive models may approach that formidable task by means of methods situated on the “black-box end” of the continuum.
+
