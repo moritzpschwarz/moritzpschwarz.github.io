@@ -35,5 +35,6 @@ Import Cropland Data into R using **CropScapeR** by Bowen Chen
 
 # Weather Forecasting
 
-[An introduction to weather forecasting with deep learning by RStudio](https://blogs.rstudio.com/ai/posts/2020-09-01-weather-prediction/)
+[An introduction to weather forecasting with deep learning by RStudio](https://blogs.rstudio.com/ai/posts/2020-09-01-weather-prediction/):
+
 Global weather is a chaotic system, but of much higher complexity than many tasks commonly addressed with machine and/or deep learning. In this post, Sigrid Keydana from the RStudio team provides a practical introduction featuring a simple deep learning baseline for atmospheric forecasting. While far away from being competitive, it serves to illustrate how more sophisticated and compute-intensive models may approach that formidable task by means of methods situated on the “black-box end” of the continuum.
