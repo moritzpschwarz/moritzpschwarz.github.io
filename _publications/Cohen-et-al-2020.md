@@ -11,6 +11,7 @@ excerpt: 'The publicly available data on COVID-19 cases provides an opportunity 
 
 <ul>
 <li> The Conversation (written by the authors): <a href="https://theconversation.com/why-we-cant-tell-if-warmer-weather-slows-down-the-spread-of-coronavirus-142950">Why we cant tell if warmer weather slows down the spread of coronavirus</a></li>
+<li> Climate Econometrics Blog (written by Angela Wenham and Moritz Schwarz): <a href="http://www.climateeconometrics.org/2020/09/15/does-the-weather-affect-covid-19/">Does the weather affect COVID-19?</a></li>
 <li> Daily Mail: <a href="https://www.dailymail.co.uk/news/article-8548099/Will-Covid-19-REALLY-worse-winter-Scientists-say-currently-impossible-tell.html">Will Covid-19 REALLY be worse this winter? Scientists admit it is currently IMPOSSIBLE to prove the coronavirus spreads slower in the summer</a></li>
 <li>Evening Standard: <a href="https://www.standard.co.uk/news/uk/coronavirus-spread-warmer-and-colder-weather-study-oxford-university-a4506126.html">Impossible to know if warmer weather slows spread of coronavirus using current data, study finds</a></li>
 <li> The Telegraph: <a href="https://www.telegraph.co.uk/news/2020/07/23/coronavirus-spread-may-notbe-slowed-warm-weather-scientists/">Coronavirus spread may not be slowed down by warm weather, scientists warn</a></li>
