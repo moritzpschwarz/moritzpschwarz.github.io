@@ -6,6 +6,9 @@ main:
   - title: "Teaching"
     url: /teaching/
     
+  - title: "Coding"
+    url: /coding/
+    
 
   #- title: "Test"
   #  url: /_pages/Simulation-Trials.html
