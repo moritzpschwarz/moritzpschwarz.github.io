@@ -1,12 +1,11 @@
 ---
 permalink: /coding/
-title: "R Coding Link Collection"
+title: "Coding"
 author_profile: true
-type: "Coding"
 redirect_from: 
   - /md/
   - /coding.html
-  ---
+---
 
 This is a simply collection of resources that I find useful. In the future, this site will feature more extensive discussions about R, stata, GitHub and python coding practices. 
 
