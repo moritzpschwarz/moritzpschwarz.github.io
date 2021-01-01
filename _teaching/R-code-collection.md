@@ -8,7 +8,7 @@ date: 2020-07-26
 # location: "City, Country"
 ---
 
-This is a simply collection of resources that I find useful. In the future, this site will feature more extensive discussions about R, stata, GitHub and python coding practices. 
+This is a simple collection of resources that I find useful. In the future, this site will feature more extensive discussions about R, stata, GitHub and python coding practices. 
 
 # Econometrics Resources
 
