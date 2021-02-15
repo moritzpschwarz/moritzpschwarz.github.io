@@ -12,16 +12,19 @@ redirect_from:
 
 Welcome to my personal website
 ======
-I am a Climate Economist based at the University of Oxford, currently pursuing my DPhil (PhD) in the field of Climate Econometrics. My research focuses on the econometric estimation of future economic impacts of climate change, while further research interests include the effectiveness of climate policy, especially carbon pricing based mitigation policy. In my research, I make ample use of econometric time series and panel methods and contribute to the development of open-source estimation software, such as the [gets R-package](https://cran.r-project.org/web/packages/gets/index.html). 
+I am a Climate Economist based at the University of Oxford, currently pursuing my DPhil (PhD) in the field of Climate Econometrics. My research focuses on the econometric estimation of future economic impacts of climate change, while further research interests include the effectiveness of climate policy, especially carbon pricing based mitigation policy. 
+
+In my research, I make ample use of econometric time series and panel methods and contribute to the development of open-source estimation software, such as the [gets R-package](https://cran.r-project.org/web/packages/gets/index.html). 
 
 I am based at the School of Geography and Environment and am associated with the **[Climate Econometrics](https://www.climateeconometrics.org/)** project at Nuffield College as well as with the **[Institute for New Economic Thinking at the Oxford Martin School](https://www.inet.ox.ac.uk/)** and the **[Smith School of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/)**.
 
 As a Clarendon Scholar, my DPhil is supported by the Clarendon Fund, while my research is supervised by Prof Sir David F Hendry and Prof Cameron Hepburn.
 
-This website is currently under development. You can find my publication list [here](https://moritzpschwarz.github.io/publications/).
+<!--This website is currently under development.-->
+You can find my publication list [here](https://moritzpschwarz.github.io/publications/).
 
 
-<a class="twitter-timeline" data-lang="en" data-width="500" data-height="800" data-dnt="true" data-theme="light" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets by MoritzPSchwarz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-lang="en" data-width="500" data-height="700" data-dnt="true" data-theme="light" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets by MoritzPSchwarz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- My research, under the supervision of Prof Cameron Hepburn and Prof Sir David Hendry, focuses on the macro-econometric estimation of climate impacts. Further research interests include spatial econometrics and remote-sensing.
 I holds a degree from the London School of Economics and Political Science and an MSc from Oxford’s Environmental Change Institute. Before continuing his studies at Oxford, he worked for the Austrian government and coordinated the activities in international environmental negotiations associated with Austria’s Presidency of the Council of the EU in 2018 (with a focus on climate, biodiversity, whaling and governance negotiations).
