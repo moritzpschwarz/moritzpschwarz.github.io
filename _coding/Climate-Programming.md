@@ -3,9 +3,9 @@ title: "Climate Tools and Tricks"
 collection: coding
 type: "Coding"
 permalink: /coding/Climate-Programming
-# "University 1, Department"
+venue: "University of Oxford"
 date: 2020-09-05
-# location: "City, Country"
+location: "Oxford, UK"
 ---
 
 A collection of packages, code snippets and gists to import, modify, and analyse Climate Data.

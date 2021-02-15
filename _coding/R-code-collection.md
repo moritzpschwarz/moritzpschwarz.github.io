@@ -3,9 +3,9 @@ title: "R Coding Link Collection"
 collection: coding
 type: "Coding"
 permalink: /coding/R-code-collection
-# "University 1, Department"
+venue: "University of Oxford"
 date: 2020-07-26
-# location: "City, Country"
+location: "Oxford, UK"
 ---
 
 This is a simple collection of resources that I find useful. In the future, this site will feature more extensive discussions about R, stata, GitHub and python coding practices.

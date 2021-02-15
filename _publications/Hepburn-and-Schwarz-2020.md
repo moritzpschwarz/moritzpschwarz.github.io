@@ -1,5 +1,5 @@
 ---
-title: 'Climate change and emerging markets after Covid-19'
+title: 'Climate change: Answers to common questions.'
 collection: publications
 permalink: /publication/Hepburn-and-Schwarz-2020
 excerpt: 'This report, written for Pictet Asset Management, seeks to dispel many of the lingering myths about climate change and sheds new light on the scale of the likely damage if decision makers fail to meet carbon emission targets. Uncertainty about climate science and economics poses challenges for business and finance. Reasonable and intelligent people frequently ask us for a reference document
