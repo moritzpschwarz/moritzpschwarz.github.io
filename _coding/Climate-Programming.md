@@ -41,3 +41,16 @@ Import Cropland Data into R using **CropScapeR** by Bowen Chen
 [An introduction to weather forecasting with deep learning by RStudio](https://blogs.rstudio.com/ai/posts/2020-09-01-weather-prediction/):
 
 Global weather is a chaotic system, but of much higher complexity than many tasks commonly addressed with machine and/or deep learning. In this post, Sigrid Keydana from the RStudio team provides a practical introduction featuring a simple deep learning baseline for atmospheric forecasting. While far away from being competitive, it serves to illustrate how more sophisticated and compute-intensive models may approach that formidable task by means of methods situated on the “black-box end” of the continuum.
+
+
+# GIS and creating Maps
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/R?src=hash&amp;ref_src=twsrc%5Etfw">#R</a> sf <a href="https://t.co/S7HT19RuUw">https://t.co/S7HT19RuUw</a> and interactions with GIS software (and integrated as a dependency into many great packages)</p>&mdash; AEA Data Editor (@AeaData) <a href="https://twitter.com/AeaData/status/1359516314545631233?ref_src=twsrc%5Etfw">February 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+# Satellite Imagery
+
+[How to create a satellite image time lapse](https://www.youtube.com/watch?v=gMuVP9JI2ps&feature=youtu.be)
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Super proud to announce that our company, <a href="https://twitter.com/atlasai_co?ref_src=twsrc%5Etfw">@atlasai_co</a>, has launched our first product: continent-wide measurements of economic livelihoods across Africa. Read about it here <a href="https://t.co/xit1oY4K56">https://t.co/xit1oY4K56</a> and sign up for a free account at <a href="https://t.co/eetNkx8ZS8">https://t.co/eetNkx8ZS8</a></p>&mdash; Marshall Burke (@MarshallBBurke) <a href="https://twitter.com/MarshallBBurke/status/1357753832340475904?ref_src=twsrc%5Etfw">February 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

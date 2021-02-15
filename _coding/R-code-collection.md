@@ -81,16 +81,48 @@ Explain the Simpsons paradox using this simple Figure:
 And this one: 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My favorite part about the new Palmer penguins dataset for <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> is the built-in Simpson&#39;s Paradox <a href="https://t.co/3o2oynB56Q">https://t.co/3o2oynB56Q</a> <a href="https://t.co/MOCpWXPiWG">pic.twitter.com/MOCpWXPiWG</a></p>&mdash; Andrew Heiss (@andrewheiss) <a href="https://twitter.com/andrewheiss/status/1301166792627421186?ref_src=twsrc%5Etfw">September 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# LaTex
+Explain the intuition behind the R tidyverse pipe: 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’ve been teaching tidyverse first for years and students catch on to pipes pretty quick. This slide helps with the intuition (from <a href="https://t.co/iKWEZra4TZ">https://t.co/iKWEZra4TZ</a>) <a href="https://t.co/Jx44b4fkGG">pic.twitter.com/Jx44b4fkGG</a></p>&mdash; Andrew Heiss (@andrewheiss) <a href="https://twitter.com/andrewheiss/status/1359583543509348356?ref_src=twsrc%5Etfw">February 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Teaching Stats
+
+A chi-squared test example:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Found some bags of Skittles and had to do a little chi-square test 🤓 <a href="https://t.co/oD3FCE8rAw">pic.twitter.com/oD3FCE8rAw</a></p>&mdash; Emil Hvitfeldt (@Emil_Hvitfeldt) <a href="https://twitter.com/Emil_Hvitfeldt/status/1358258665640263686?ref_src=twsrc%5Etfw">February 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who made this <a href="https://t.co/212bG8vZf0">pic.twitter.com/212bG8vZf0</a></p>&mdash; Maarten van Smeden (@MaartenvSmeden) <a href="https://twitter.com/MaartenvSmeden/status/1357454388009332738?ref_src=twsrc%5Etfw">February 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[Regression and Statistical Inference by Andrew Heiss](https://evalsp21.classes.andrewheiss.com/content/02-content/)
+
+# LaTeX
 [LaTeX Best Practices](https://github.com/simonharrer/latex-best-practices#special-commands) by Simon Harrer
 
 [Advice for writing LaTeX documents](https://github.com/dspinellis/latex-advice) by Diomidis Spinellis
 
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Other advice for 2nd years: for paper presentations, make sure you use Mathpix Snip. It lets you screenshot equations and then automatically produces the underlying LaTeX code for that equation. This literally saved me dozens of hours in my 2nd year. <a href="https://t.co/w69prBdtea">https://t.co/w69prBdtea</a> <a href="https://t.co/hUfeVIfWXL">pic.twitter.com/hUfeVIfWXL</a></p>&mdash; Ryan Cummings (@weakinstrument) <a href="https://twitter.com/weakinstrument/status/1359555898423734274?ref_src=twsrc%5Etfw">February 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Arranging a figure in LaTeX
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">maybe this will help (made it for you or anyone who needs it)<a href="https://t.co/EYEU91E9zk">https://t.co/EYEU91E9zk</a><br><br>(adapted from some random pieces found online, should work) <a href="https://t.co/L7rR6bZOIX">pic.twitter.com/L7rR6bZOIX</a></p>&mdash; Niko (@NikoSarcevic) <a href="https://twitter.com/NikoSarcevic/status/1359251011521679361?ref_src=twsrc%5Etfw">February 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+# IDEs, Docker, and GitHub
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Cool website of the day 🤙 <br><br>Navigate a GitHub repo as if you&#39;re in VS Code. You can even open multiple tabs add and use &quot;markdown preview mode&quot;<br><br>Just append &quot;1s&quot; to &quot;github&quot; in the URL. Example: <a href="https://t.co/x15Rwkg5mh">https://t.co/x15Rwkg5mh</a> <a href="https://t.co/DzViIXn7Lz">pic.twitter.com/DzViIXn7Lz</a></p>&mdash; Dean Attali (@daattali) <a href="https://twitter.com/daattali/status/1359182875313201154?ref_src=twsrc%5Etfw">February 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is probably one of the best intro to <a href="https://twitter.com/hashtag/Docker?src=hash&amp;ref_src=twsrc%5Etfw">#Docker</a> and <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> I&#39;ve ever read:<a href="https://t.co/cnVm90fyy9">https://t.co/cnVm90fyy9</a> <a href="https://t.co/cypTvfHGbZ">pic.twitter.com/cypTvfHGbZ</a></p>&mdash; Colin Fay 🤘 (@_ColinFay) <a href="https://twitter.com/_ColinFay/status/1359231715550633991?ref_src=twsrc%5Etfw">February 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ==========
 
 # Visualisations
 
+## Presentations
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There&#39;s a simple rule for tables in presentations: Plan to read out every value in the table.<br><br>&quot;But there&#39;s so many of them, it&#39;ll take forever and bore the audience.&quot;<br><br>Then you know what you have to do. <a href="https://t.co/ZrKjAQkeDL">https://t.co/ZrKjAQkeDL</a></p>&mdash; Claus Wilke (@ClausWilke) <a href="https://twitter.com/ClausWilke/status/1358105687075803137?ref_src=twsrc%5Etfw">February 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Tables
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Every time I see long tables full of numbers, a little piece of my love for numbers flies away. <br>Please consider <a href="https://twitter.com/StatModeling?ref_src=twsrc%5Etfw">@StatModeling</a> parallel dot plots instead!<a href="https://t.co/pQ127rOpbR">https://t.co/pQ127rOpbR</a><br>Code: <a href="https://t.co/rTu4wATYpY">https://t.co/rTu4wATYpY</a> <a href="https://t.co/lC1LfkWtkR">https://t.co/lC1LfkWtkR</a> <a href="https://t.co/eiA06BB0hH">pic.twitter.com/eiA06BB0hH</a></p>&mdash; Julyan Arbel (@JulyanArbel) <a href="https://twitter.com/JulyanArbel/status/1301816176339832832?ref_src=twsrc%5Etfw">September 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
