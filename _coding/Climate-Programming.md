@@ -1,7 +1,7 @@
 ---
 title: "Climate Tools and Tricks"
 collection: coding
-type: "Coding"
+type: "teaching"
 permalink: /coding/Climate-Programming
 venue: "University of Oxford"
 date: 2020-09-05
