@@ -217,6 +217,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+    # _coding
+  - scope:
+      path: ""
+      type: coding
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
