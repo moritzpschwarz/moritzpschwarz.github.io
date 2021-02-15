@@ -1,7 +1,7 @@
 ---
 title: "R Coding Link Collection"
 collection: coding
-type: "Coding"
+type: "coding"
 permalink: /coding/R-code-collection
 venue: "University of Oxford"
 date: 2020-07-26
