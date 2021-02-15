@@ -1,6 +1,6 @@
 ---
 title: "R Coding Link Collection"
-collection: coding
+collection: teaching
 type: "coding"
 permalink: /coding/R-code-collection
 venue: "University of Oxford"
