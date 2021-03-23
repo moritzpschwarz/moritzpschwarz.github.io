@@ -2,13 +2,15 @@
 title: "Teaching Econometrics in R"
 collection: coding
 type: "coding"
-permalink: /coding/R-code-collection
+permalink: /coding/teaching-stats-in-r
 venue: "University of Oxford"
 date: 2021-03-23
 location: "Oxford, UK"
 ---
 
-## Econometrics Resources
+A collection of resources that I have used to teach econometrics and statistics. 
+
+For structured material, please see the [R Material for a Stata-based Statistics course, taught at QEH in Oxford](moritzschwarz.org/QEH_R_Material).
 
 [Modelling our Changing World](https://link.springer.com/book/10.1007%2F978-3-030-21432-6), by Jenny Castle and David Hendry
 

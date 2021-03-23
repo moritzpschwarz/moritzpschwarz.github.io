@@ -9,7 +9,7 @@ location: "Oxford, UK"
 ---
 
 
-## References and Citation
+Some resources on writing Journal articles in RMarkdown
 
 [Using RMarkdown with Zotero by Dewey Dunnington](https://fishandwhistle.net/post/2020/getting-started-zotero-better-bibtex-rmarkdown/)
 
