@@ -2,7 +2,7 @@
 title: "R Markdown and LaTeX"
 collection: coding
 type: "coding"
-permalink: /coding/R-code-collection
+permalink: /coding/rmarkdown-and-latex
 venue: "University of Oxford"
 date: 2021-03-23
 location: "Oxford, UK"
