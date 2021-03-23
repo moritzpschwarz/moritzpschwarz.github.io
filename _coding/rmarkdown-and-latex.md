@@ -11,8 +11,10 @@ location: "Oxford, UK"
 
 Some resources on writing Journal articles in RMarkdown
 
-[Using RMarkdown with Zotero by Dewey Dunnington](https://fishandwhistle.net/post/2020/getting-started-zotero-better-bibtex-rmarkdown/)
+[Using RMarkdown with Zotero by Dewey Dunnington](https://fishandwhistle.net/post/2020/getting-started-zotero-better-bibtex-rmarkdown/) with his R-package [rbbt](https://github.com/paleolimbot/rbbt).
 
+
+[Pimp my RMarkdown](https://holtzy.github.io/Pimp-my-rmd/)
 
 ## Website Building
 [10 minute intodruction to caladown](https://www.youtube.com/watch?time_continue=1&v=HtQhG80MKQE&feature=emb_logo) to build websites, by Danielle Navarro
