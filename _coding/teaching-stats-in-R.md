@@ -8,7 +8,7 @@ date: 2021-03-23
 location: "Oxford, UK"
 ---
 
-# Econometrics Resources
+## Econometrics Resources
 
 [Modelling our Changing World](https://link.springer.com/book/10.1007%2F978-3-030-21432-6), by Jenny Castle and David Hendry
 
@@ -48,7 +48,7 @@ Based on the books by Baltagi: Econometric Analysis of Panel Data and by Hsiao: 
 
 
 
-# Chi-squared test
+## Chi-squared test
 
 A chi-squared test example:
 

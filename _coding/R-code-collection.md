@@ -1,5 +1,5 @@
 ---
-title: "R Coding Link Collection"
+title: "General R Resources"
 collection: coding
 type: "coding"
 permalink: /coding/R-code-collection

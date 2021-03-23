@@ -8,12 +8,12 @@ date: 2021-03-23
 location: "Oxford, UK"
 ---
 
-# R Resources Collection
+## R Resources Collection
 
 A collection of R Books:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Howdy <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> peeps! Over the past 2 years I&#39;ve collected about 100 R-books. <br><br>Here they are, in one big library!<br><br>The site still needs work, but hopefully you find something you didn&#39;t know existed. <br><br>Here we go v1.0 💕📚📚<br><br>The Big Book of R⤵️<a href="https://t.co/ejy63YJPGP">https://t.co/ejy63YJPGP</a></p>&mdash; Oscar Baruffa 🇿🇦🇳🇱📊 (@OscarBaruffa) <a href="https://twitter.com/OscarBaruffa/status/1299004189977260038?ref_src=twsrc%5Etfw">August 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Teaching R
+## Teaching R
 
 [Randomize Exam using Sweave](https://core.ac.uk/reader/16376348) by D.S. Gómez, J. Mulero, M.J. Nueda, M.D. Molina, A. Pascual
 

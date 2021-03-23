@@ -9,12 +9,12 @@ location: "Oxford, UK"
 ---
 
 
-# References and Citation
+## References and Citation
 
 [Using RMarkdown with Zotero by Dewey Dunnington](https://fishandwhistle.net/post/2020/getting-started-zotero-better-bibtex-rmarkdown/)
 
 
-# Website Building
+## Website Building
 [10 minute intodruction to caladown](https://www.youtube.com/watch?time_continue=1&v=HtQhG80MKQE&feature=emb_logo) to build websites, by Danielle Navarro
 
 Create a Website with RMarkdown: [Tutorial by Julie Lowndes](https://jules32.github.io/rmarkdown-website-tutorial/index.html) or [Tutorial by RStudio](https://resources.github.com/whitepapers/github-and-rstudio/)
@@ -22,7 +22,7 @@ Create a Website with RMarkdown: [Tutorial by Julie Lowndes](https://jules32.git
 
 
 
-# LaTeX
+## LaTeX
 [LaTeX Best Practices](https://github.com/simonharrer/latex-best-practices#special-commands) by Simon Harrer
 
 [Advice for writing LaTeX documents](https://github.com/dspinellis/latex-advice) by Diomidis Spinellis
