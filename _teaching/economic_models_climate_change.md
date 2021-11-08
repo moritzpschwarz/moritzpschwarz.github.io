@@ -1,13 +1,12 @@
 ---
 title: "Tools and Resources for Economic Models of Climate Change"
 collection: teaching
-type: "teaching"
+type: "Teaching"
 permalink: /teaching/economic_models
 venue: "University of Oxford"
 date: 2021-11-08
 location: "Oxford, UK"
 ---
-
 
 This list is continuously updated at: [www.moritzschwarz.org/teaching/economic\_models](http://www.moritzschwarz.org/teaching/economic_models)
 
@@ -25,8 +24,7 @@ This list is continuously updated at: [www.moritzschwarz.org/teaching/economic\_
 - [MacKay Carbon Calculator - UK emissions and primary energy consumption (beis.gov.uk)](https://mackaycarboncalculator.beis.gov.uk/overview/emissions-and-primary-energy-consumption/?levers=111111111111111111111111111111111111111111111aaabaaabaaabaaaaaaaaaaaabbabbbcbbaabcaabbaaaagggggggggggggeggggggggggiggiiiqgdgggggggggkgg)
   - Code for a slightly older version on GitHub: [decc/twenty-fifty-new-look: The source code for the new look version of the 2050 calculator (github.com)](https://github.com/decc/twenty-fifty-new-look)
 - [IXMP Scenario Explorer developed by IIASA](https://data.ene.iiasa.ac.at/iamc-1.5c-explorer/)
-- Run Nordhaus&#39; DICE Model in a browser: [RDCEP | webDICE](http://webdice.rdcep.org/)
+- Run Nordhaus' DICE Model in a browser: [RDCEP | webDICE](http://webdice.rdcep.org/)
 - Run your own Simple Climate Model: [HectorUI: An Interactive Climate Model (shinyapps.io)](https://jgcri.shinyapps.io/HectorUI/)
 - Documentation and Overview for common Integrated Assessment Models (CE-IAMs) [IAMC wiki - IAMC-Documentation (iamcdocumentation.eu)](https://www.iamcdocumentation.eu/index.php/IAMC_wiki)
-  - Full code for the REMIND model: [remindmodel/remind: REMIND - REgional Model of INvestments and Development (github.com)](https://github.com/remindmodel/remind)
-  -
+- Full code for the REMIND model: [remindmodel/remind: REMIND - REgional Model of INvestments and Development (github.com)](https://github.com/remindmodel/remind)
