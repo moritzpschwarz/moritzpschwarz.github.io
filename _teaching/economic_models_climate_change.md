@@ -8,8 +8,6 @@ date: 2021-11-08
 location: "Oxford, UK"
 ---
 
-This list is continuously updated at: [www.moritzschwarz.org/teaching/economic\_models](http://www.moritzschwarz.org/teaching/economic_models)
-
 # Climate Impacts and Econometric Estimation
 
 - [Climate Econometrics](http://www.climateeconometrics.org/) Research Group at Oxford

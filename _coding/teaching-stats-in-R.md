@@ -28,6 +28,9 @@ For structured material, please see the [R Material for a Stata-based Statistics
 
 [Regression and Statistical Inference by Andrew Heiss](https://evalsp21.classes.andrewheiss.com/content/02-content/)
 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hi <a href="https://twitter.com/hashtag/econtwitter?src=hash&amp;ref_src=twsrc%5Etfw">#econtwitter</a> I need your help!<br><br>could you let me know if you ever used one of the tools I&#39;ve shared in your teaching, for your own learning, etc? <br><br>For ex...<br><br>the R intro <a href="https://t.co/3J666qMZK8">https://t.co/3J666qMZK8</a><br><br>Applied Econ with R:<a href="https://t.co/XRwVjXh10r">https://t.co/XRwVjXh10r</a><br><br>TWFE<a href="https://t.co/1e4rJhSFSL">https://t.co/1e4rJhSFSL</a><br><br>🙏</p>&mdash; Hans Henrik Sievertsen (@hhsievertsen) <a href="https://twitter.com/hhsievertsen/status/1484199225814667278?ref_src=twsrc%5Etfw">January 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ======
 
 ## Panel Data Econometrics
