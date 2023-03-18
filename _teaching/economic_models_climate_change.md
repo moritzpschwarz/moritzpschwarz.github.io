@@ -24,5 +24,6 @@ location: "Oxford, UK"
 - [IXMP Scenario Explorer developed by IIASA](https://data.ene.iiasa.ac.at/iamc-1.5c-explorer/)
 - Run Nordhaus' DICE Model in a browser: [RDCEP - webDICE](http://webdice.rdcep.org/)
 - Run your own Simple Climate Model: [HectorUI: An Interactive Climate Model (shinyapps.io)](https://jgcri.shinyapps.io/HectorUI/)
+- A more sophisticated Integrated Assessment Model for the Social Cost of Carbon: the [META Model](https://github.com/openmodels/META-2021), which is also available in an Excel version
 - Documentation and Overview for common Integrated Assessment Models (CE-IAMs) [IAMC wiki - IAMC-Documentation (iamcdocumentation.eu)](https://www.iamcdocumentation.eu/index.php/IAMC_wiki)
 - Full code for the REMIND model: [remindmodel/remind: REMIND - REgional Model of INvestments and Development (github.com)](https://github.com/remindmodel/remind)
