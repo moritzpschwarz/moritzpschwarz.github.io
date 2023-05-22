@@ -6,7 +6,7 @@ excerpt: 'A rapid decarbonization of the electricity system is urgently required
 date: 2022-04-17
 venue: 'Journal of Cleaner Production'
 paperurl: 'https://doi.org/10.1016/j.jclepro.2022.131796'
-citation: 'Philippe Benoit, Alex Clark, Moritz Schwarz, and Arjuna Dibley.(2022).Decarbonization in state-owned power companies: Lessons from a comparative analysis, Journal of Cleaner Production, Volume 355, 2022, 131796,ISSN 0959-6526, https://doi.org/10.1016/j.jclepro.2022.131796.'
+citation: 'Philippe Benoit, Alex Clark, Moritz Schwarz, and Arjuna Dibley. (2022). Decarbonization in state-owned power companies: Lessons from a comparative analysis, Journal of Cleaner Production, Volume 355, 2022, 131796,ISSN 0959-6526, https://doi.org/10.1016/j.jclepro.2022.131796.'
 ---
   
 [Weblink](https://doi.org/10.1016/j.jclepro.2022.131796)
@@ -21,4 +21,4 @@ Accompanying Media:
 [Blog Post on the Climate Econometrics Website](https://www.climateeconometrics.org/2022/04/21/for-state-owned-companies-its-not-always-just-a-carbon-tax/)
 
 
-Recommended citation: 'Philippe Benoit, Alex Clark, Moritz Schwarz, and Arjuna Dibley.(2022).Decarbonization in state-owned power companies: Lessons from a comparative analysis, Journal of Cleaner Production, Volume 355, 2022, 131796,ISSN 0959-6526, https://doi.org/10.1016/j.jclepro.2022.131796.'
+Recommended citation: 'Philippe Benoit, Alex Clark, Moritz Schwarz, and Arjuna Dibley. (2022). Decarbonization in state-owned power companies: Lessons from a comparative analysis, Journal of Cleaner Production, Volume 355, 2022, 131796,ISSN 0959-6526, https://doi.org/10.1016/j.jclepro.2022.131796.'

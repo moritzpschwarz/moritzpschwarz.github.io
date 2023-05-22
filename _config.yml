@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Moritz P. Schwarz" # | Climate Economist
+title                    : "Dr Moritz P. Schwarz" # | Climate Economist
 title_separator          : "-"
-name                     : &name "Moritz P. Schwarz"
-description              : &description "Moritz P. Schwarz Oxford Climate Economist"
+name                     : &name "Dr Moritz P. Schwarz"
+description              : &description "Dr Moritz P. Schwarz Oxford Climate Economist"
 url                      : "https://moritzschwarz.org" # formerly moritzpschwarz.github.io the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "moritzpschwarz/moritzpschwarz.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Moritz P. Schwarz"
+  name             : "Dr Moritz P. Schwarz"
   avatar           : "profile_small.jpg"
   bio              : "Climate Economics<br />Data Science<br />International Negotiations"
   location         : "Oxford, UK"
