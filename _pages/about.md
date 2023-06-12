@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr Moritz P. Schwarz"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -14,7 +14,7 @@ Welcome to my personal website
 ======
 I am a Climate Economist based at the University of Oxford and at the Austrian Ministry of Finance. I have obtained a DPhil (PhD) in the field of Climate Econometrics at the University of Oxford. In my research, I focus on the econometric estimation of future economic impacts of climate change, while further research interests include the effectiveness of climate policy, especially carbon pricing based mitigation policy. 
 
-In my research, I make ample use of econometric time series and panel methods and contribute to the development of open-source estimation software, such as the [gets R-package](https://cran.r-project.org/web/packages/gets/index.html). 
+In my research, I make ample use of econometric time series and panel methods and contribute to the development of open-source estimation software, such as the [gets R-package](https://cran.r-project.org/web/packages/gets/index.html) and the [getspanel R-package](moritzschwarz.org/getspanel). 
 
 I am based at the School of Geography and Environment and am associated with the **[Climate Econometrics](https://www.climateeconometrics.org/)** project at Nuffield College as well as with the **[Institute for New Economic Thinking at the Oxford Martin School](https://www.inet.ox.ac.uk/)** and the **[Smith School of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/)**.
 
