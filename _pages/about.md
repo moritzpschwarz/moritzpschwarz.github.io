@@ -12,7 +12,7 @@ redirect_from:
 
 Welcome to my personal website
 ======
-I am a Climate Economist based at the University of Oxford and at the Austrian Ministry of Finance. I have obtained a DPhil (PhD) in the field of Climate Econometrics at the University of Oxford. In my research, I focus on the econometric estimation of future economic impacts of climate change, while further research interests include the effectiveness of climate policy, especially carbon pricing based mitigation policy. 
+I am a Climate Economist and currently hold the [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/) financed by the Einstein Foundation in Berlin. I have obtained a DPhil (PhD) in the field of Climate Econometrics from the University of Oxford and am currently based at the Faculty of Economics and Management at TU Berlin and the Potsdam Institute of Climate Impact Research (PIK) as well as the Climate Econometrics research group at the University of Oxford and the Austrian Ministry of Finance in Vienna. In my research, I focus on the econometric estimation of future economic impacts of climate change, while further research interests include the effectiveness of climate policy, especially carbon pricing based mitigation policy. 
 
 In my research, I make ample use of econometric time series and panel methods and contribute to the development of open-source estimation software, such as the [gets R-package](https://cran.r-project.org/web/packages/gets/index.html) and the [getspanel R-package](moritzschwarz.org/getspanel). 
 
