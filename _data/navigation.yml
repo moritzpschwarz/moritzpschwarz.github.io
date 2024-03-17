@@ -12,6 +12,9 @@ main:
   - title: "getspanel package"
     url: /getspanel/
     
+  - title: "aggregate.model package"
+    url: /aggregate.model/
+    
 
   #- title: "Test"
   #  url: /_pages/Simulation-Trials.html
