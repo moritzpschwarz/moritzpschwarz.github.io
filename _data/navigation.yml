@@ -12,8 +12,8 @@ main:
   - title: "getspanel package"
     url: /getspanel/
     
-  - title: "aggregate.model package"
-    url: /aggregate.model/
+  - title: "Open Source Empirical Macro (OSEM) Model package"
+    url: /osem/
     
 
   #- title: "Test"
