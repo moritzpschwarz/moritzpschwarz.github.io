@@ -4,10 +4,9 @@ collection: publications
 permalink: /publication/Hepburn-and-Schwarz-2020
 date: 2020-12-11
 venue: 'A Report prepared for Pictet Asset Management'
-paperurl: 'https://www.pictet.com/us/en/responsible-vision/climate-change-answers-to-common-questions'
 ---
 
-
+[Download paper here](https://moritzschwarz.org/files/Hepburn_Schwarz_2020.pdf)
 
 
 
