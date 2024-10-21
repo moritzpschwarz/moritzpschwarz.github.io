@@ -4,11 +4,14 @@ collection: publications
 permalink: /publication/Cohen-et-al-2020
 date: 2020-07-23
 venue: 'Environmental and Resource Economics'
-paperurl: 'https://link.springer.com/article/10.1007/s10640-020-00493-2#Sec43'
 ---
-Data and Code: [Github](https://github.com/moritzpschwarz/COVID-19-weather-Oxford)
+[Link to Paper](https://link.springer.com/article/10.1007/s10640-020-00493-2#Sec43)
 
-[Weblink to our specific publication](https://link.springer.com/article/10.1007/s10640-020-00493-2#Sec43)
+
+
+[Link to Paper](https://link.springer.com/article/10.1007/s10640-020-00493-2#Sec43)
+
+Data and Code: [Github](https://github.com/moritzpschwarz/COVID-19-weather-Oxford)
 
 [Weblink to Collection of Perspectives on the Economics of the Environment in the Shadow of Coronavirus](https://link.springer.com/article/10.1007/s10640-020-00493-2) and the [PDF](https://link.springer.com/content/pdf/10.1007/s10640-020-00493-2.pdf)
 

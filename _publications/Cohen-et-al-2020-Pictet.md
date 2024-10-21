@@ -4,7 +4,6 @@ collection: publications
 permalink: /publication/Cohen-et-al-2020-Pictet
 date: 2020-10-15
 venue: 'A Report prepared for Pictet Asset Management'
-paperurl: 'https://am.pictet/en/globalwebsite/global-articles/2020/pictet-asset-management/climate-change-and-emerging-markets-after-covid'
 ---
 
 [Link to Report](https://moritzschwarz.org/files/Hepburn_Schwarz_2020.pdf)

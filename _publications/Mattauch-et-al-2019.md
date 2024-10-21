@@ -2,21 +2,25 @@
 title: 'Antworten auf zentrale Fragen zur Einführung von CO<sub>2</sub>-Preisen. Gestaltungsoptionen und ihre Auswirkungen für den schnellen Übergang in die klimafreundliche Gesellschaft'
 collection: publications
 permalink: /publication/Mattauch-et-al-2019
-excerpt: 'Derzeit wird in Deutschland daher kontrovers diskutiert, ob und wie CO<sub>2</sub>-Emissionen einen höheren Preis bekommen können. Dabei werden die Formen einer CO<sub>2</sub>-Steuer, einer Erweiterung des europäischen Emissionshandels oder Mischformen und Varianten dieser Instrumente erwogen.  Mit der nachfolgenden Zusammenstellung einiger in der Öffentlichkeit häufig diskutierter Fragen bereiten wir den Stand der Forschung für Interessierte auf.<br>
-<br>[Online Version]("https://www.scientists4future.org/2019/08/co2-preis-klimafreundliche-gesellschaft/")<br>'
 date: 2019-08-22
 venue: 'Diskussionsbeiträge der Scientists for Future'
-paperurl: 'https://doi.org/10.5281/zenodo.3644498'
-citation: 'Mattauch, L., Creutzig, F., aus dem Moore, N., Franks, M., Funke, F., Jakob, M., Sager, L., Schwarz, M., Voß, A., Beck, M. L., Daub, C. H., Drupp, M., Ekardt, F., Hagedorn, G., Kirchner, M., Kruse, T., Loew, T., Neuhoff, K., Neuweg, I., Peterson, S., Roesti, M., Schneider, G., Schmidt, R., Schwarze, R., Siegmeier, J., Thalmann, P., Wallacher, J. (2019). Antworten auf zentrale Fragen zur Einführung von CO<sub>2</sub>-Preisen. Gestaltungsoptionen und ihre Auswirkungen für den schnellen Übergang in die klimafreundliche Gesellschaft. (Version 2). <i>Diskussionsbeiträge der scientists for future</i>.'
 ---
+
+[Link to Paper](http://doi.org/10.5281/zenodo.3371150)
 
 <a href="https://doi.org/10.5281/zenodo.3644498"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3644498.svg" alt="DOI"></a>
 
-[Paper Weblink (Version 2, January 2020)](http://doi.org/10.5281/zenodo.3371150)
+[Link to Paper](http://doi.org/10.5281/zenodo.3371150)
 
 [Online Version](https://www.scientists4future.org/2019/08/co2-preis-klimafreundliche-gesellschaft/)
 
 [Version 1.1](https://zenodo.org/record/3371150#.XxroYJ4zaTE)
+
+**Abstract:**
+Derzeit wird in Deutschland daher kontrovers diskutiert, ob und wie CO<sub>2</sub>-Emissionen einen höheren Preis bekommen können. Dabei werden die Formen einer CO<sub>2</sub>-Steuer, einer Erweiterung des europäischen Emissionshandels oder Mischformen und Varianten dieser Instrumente erwogen.  Mit der nachfolgenden Zusammenstellung einiger in der Öffentlichkeit häufig diskutierter Fragen bereiten wir den Stand der Forschung für Interessierte auf.
+
+
+**Weitere Diskussion:**
 
 Klimaschutz hat für die Bürgerinnen und Bürger eine sehr hohe Priorität. Dies zeigt sich nicht nur regelmäßig in Befragungen, sondern auch durch die politische Bewegung „Fridays for Future“ bzw.  „Klimastreik“. Dennoch bleiben die Anstrengungen, Treibhausgasemissionen zu reduzieren, unzureichend. Ein wesentlicher Grund für das Missverhältnis von Überzeugung und kollektivem Handeln liegt darin, dass Treibhausgase, insbesondere in Deutschland und Österreich, keinen angemessenen Preis haben. Klimaschädigendes Verhalten ist häufig zu preiswert, klimaschonende Alternativen sind meist finanziell wenig attraktiv. Das gilt für alle: Unternehmen, Bürgerinnen, Bürger und die öffentliche Hand. Da im Pariser Klimaabkommen 2015 vereinbart wurde, den Temperaturanstieg deutlich unter 2°C zu halten und Anstrengungen zu unternehmen, den Temperaturanstieg auf 1.5°C zu begrenzen, ist der für weitere Treibhausgase verbleibende Platz in der Atmosphäre sehr knapp. Knappe Güter sollten in einer Marktwirtschaft teuer sein – ansonsten kommt es zu einem Marktversagen. Treibhausgase sind jedoch bisher nicht angemessen bepreist.
 

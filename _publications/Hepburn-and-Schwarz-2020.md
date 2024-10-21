@@ -6,7 +6,7 @@ date: 2020-12-11
 venue: 'A Report prepared for Pictet Asset Management'
 ---
 
-[Download paper here](https://moritzschwarz.org/files/Hepburn_Schwarz_2020.pdf)
+[Link to Paper](https://moritzschwarz.org/files/Hepburn_Schwarz_2020.pdf)
 
 
 
