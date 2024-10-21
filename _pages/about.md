@@ -32,20 +32,19 @@ trajectories using methods from the macro-econometrics as well as the
 causal inference literature. This includes efforts to study which
 policies can be the most effective at reducing emissions. I use similar
 methods to create forecasting models of the energy system (e.g. the
-[Open-Source Empirical Macro Model](moritzschwarz.org/osem)) and have
-published on the economic impacts of climate change as well as on Just
-Transition aspects of the Clean Energy Transition.
+[Open-Source Empirical Macro Model](osem)) and have published on the
+economic impacts of climate change as well as on Just Transition aspects
+of the Clean Energy Transition.
 
 I contribute to the development of open-source estimation software to
 disseminate the methods and techniques we develop, such as the [{gets}
 R-package](https://cran.r-project.org/web/packages/gets/index.html)
 (general to specific modelling techniques, indicator saturation, and
-model selection, see also [website here](moritzschwarz.org/gets)) and
-the [{getspanel} R-package](getspanel) (gets-type techniques for panels
-and causal inference, see also [website
-here](moritzschwarz.org/getspanel)). More recently, I have been
-developing the Open Source Empirical Macro Model (OSEM) as well as the
-associated R package [{osem}](osem) together with co-authors.
+model selection, see also [website here](gets)) and the [{getspanel}
+R-package](getspanel) (gets-type techniques for panels and causal
+inference, see also [website here](getspanel)). More recently, I have
+been developing the Open Source Empirical Macro Model (OSEM) as well as
+the associated R package [{osem}](osem) together with co-authors.
 
 During my DPhil studies, I was based at the School of Geography and
 Environment. I remain associated with the [Climate
@@ -131,10 +130,7 @@ Policy*.](https://www.sciencedirect.com/science/article/pii/S0301421524003586)
 You can find my full publication list
 [here](https://moritzpschwarz.github.io/publications/).
 
-<a class="twitter-timeline" data-lang="en" data-width="500" data-height="700" data-dnt="true" data-theme="light" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets
-by MoritzPSchwarz</a>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets by MoritzPSchwarz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <!-- My research, under the supervision of Prof Cameron Hepburn and Prof Sir David Hendry, focuses on the macro-econometric estimation of climate impacts. Further research interests include spatial econometrics and remote-sensing.
 I holds a degree from the London School of Economics and Political Science and an MSc from Oxford’s Environmental Change Institute. Before continuing his studies at Oxford, he worked for the Austrian government and coordinated the activities in international environmental negotiations associated with Austria’s Presidency of the Council of the EU in 2018 (with a focus on climate, biodiversity, whaling and governance negotiations).
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
