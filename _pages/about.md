@@ -6,26 +6,137 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-Welcome to my personal website
-======
-I am a Climate and Environmental Economist and currently hold the [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/) financed by the Einstein Foundation in Berlin. I have obtained a DPhil (PhD) in the field of Climate Econometrics from the University of Oxford and am currently based at the Faculty of Economics and Management at TU Berlin and the Potsdam Institute of Climate Impact Research (PIK) as well as the Climate Econometrics research group at the University of Oxford. In my research, I focus on environmental economics and the econometric estimation of future economic impacts of climate change, while further research interests include the effectiveness of climate and environmental policy, especially carbon pricing based mitigation policy. 
+# Welcome to my personal website
 
-In my research, I make ample use of econometric time series and panel methods and contribute to the development of open-source estimation software, such as the [{gets} R-package](https://cran.r-project.org/web/packages/gets/index.html) and the [{getspanel} R-package](getspanel). More recently, I have been developing the Open Source Empirical Macro Model (OSEM) as well as the associated R package [{osem}](osem) together with co-authors.
+I am a Climate and Environmental Economist and currently hold the
+[Einstein International Postdoctoral
+Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/)
+financed by the Einstein Foundation in Berlin. I have obtained a DPhil
+(PhD) in the field of Climate Econometrics from the University of Oxford
+and am currently based at the Faculty of Economics and Management at TU
+Berlin and the Potsdam Institute of Climate Impact Research (PIK) as
+well as the [Climate Econometrics](https://www.climateeconometrics.org/)
+research group at the University of Oxford.
 
-During my DPhil studies, I was based at the School of Geography and Environment. I remain associated with the [Climate Econometrics](https://www.climateeconometrics.org/) project at Nuffield College as well as with the [Institute for New Economic Thinking at the Oxford Martin School](https://www.inet.ox.ac.uk/) and the [Smith School of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/).
+In my research, I make ample use of econometric time series and panel
+methods to study climate change and how to address it. My research
+focuses on quantifying the effects of climate policies on emission
+trajectories using methods from the macro-econometrics as well as the
+causal inference literature. This includes efforts to study which
+policies can be the most effective at reducing emissions. I use similar
+methods to create forecasting models of the energy system (e.g. the
+[Open-Source Empirical Macro Model](moritzschwarz.org/osem)) and have
+published on the economic impacts of climate change as well as on Just
+Transition aspects of the Clean Energy Transition.
 
-As a Clarendon Scholar, my DPhil was supported by the Clarendon Fund, while my research was supervised by Prof Sir David F Hendry and Prof Cameron Hepburn.
+I contribute to the development of open-source estimation software to
+disseminate the methods and techniques we develop, such as the [{gets}
+R-package](https://cran.r-project.org/web/packages/gets/index.html)
+(general to specific modelling techniques, indicator saturation, and
+model selection, see also [website here](moritzschwarz.org/gets)) and
+the [{getspanel} R-package](getspanel) (gets-type techniques for panels
+and causal inference, see also [website
+here](moritzschwarz.org/getspanel)). More recently, I have been
+developing the Open Source Empirical Macro Model (OSEM) as well as the
+associated R package [{osem}](osem) together with co-authors.
 
-<!--This website is currently under development.-->
-You can find my publication list [here](https://moritzpschwarz.github.io/publications/).
+During my DPhil studies, I was based at the School of Geography and
+Environment. I remain associated with the [Climate
+Econometrics](https://www.climateeconometrics.org/) project at Nuffield
+College as well as with the [Institute for New Economic Thinking at the
+Oxford Martin School](https://www.inet.ox.ac.uk/) and the [Smith School
+of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/).
 
+As a Clarendon Scholar, my DPhil was supported by the Clarendon Fund,
+while my research was supervised by Prof Sir David F Hendry and Prof
+Cameron Hepburn.
 
-<a class="twitter-timeline" data-lang="en" data-width="500" data-height="700" data-dnt="true" data-theme="light" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets by MoritzPSchwarz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+## Newest Research: 
 
+### ***Science:*** Identifying successful climate policies
+
+As part of an international research team, we have published the first
+global assessment of climate policies in the four most critical emission
+sectors in the journal *Science*.
+
+We unveiled the first comprehensive global evaluation of 1,500 climate
+policy measures from 41 countries across six continents. We identified
+‘emission breaks’ and assigned them policy interventions, pinpointing
+where policies may have had a large impact. The break detection
+methodology, called indicator saturation estimation, developed at
+Climate Econometrics, allows break indicators for all possible dates to
+be examined objectively using a variant of machine learning. This
+unprecedented study provides a detailed impact analysis of the wide
+range of climate policy measures implemented across the planet over the
+last two decades.
+
+We have identified 63 cases of successful climate policies with large
+emission reductions with the key characteristic of these successful
+cases being the inclusion of tax and price incentives in well-designed
+policy mixes. Our study also shows that if more countries relied on
+policies like these ones, the remaining emissions gap for 2030 could be
+closed by as much as 26% to 41%. The identified successful policies have
+led to an average emission reduction of 19 percent. In total, the 63
+policy interventions reduced emissions between 0.6 and 1.8 billion
+tonnes of CO~2~.
+
+For more detail on the identified policies, check out our [Climate
+Policy Exporer](http://climate-policy-explorer.pik-potsdam.de/) where
+you can dive deeper into our results and findings.
+
+\
+[Stechemesser A., Koch, N., Mark E., Klösel P., Nachtigall, D., Pretis,
+F., Ritter N., Schwarz M., et al. (2024). **Climate policies that
+achieved major emission reductions: Global evidence from two decades.**
+*Science*.](https://www.science.org/doi/10.1126/science.adl6547)
+
+[[Published
+Paper](https://www.science.org/doi/10.1126/science.adl6547)][Preprint][[Data
+and code](https://zenodo.org/records/12773811)][[Interactive web
+dashboard](http://climate-policy-explorer.pik-potsdam.de/)]\
+
+**Media**: [[New York
+Times](https://www.nytimes.com/2024/08/22/climate/climate-policies.html)][[Financial
+Times](https://www.ft.com/content/8095afce-13eb-4b94-8ea7-1fd1a90bd99b)][[Wall
+Street
+Journal](https://www.wsj.com/science/environment/climate-change-policies-emissions-ai-research-a02b3f59)][[Washington
+Post](https://www.washingtonpost.com/politics/2024/08/22/climate-change-price-hike-policies-emissions/c6e64876-60b0-11ef-ae22-cef4d8785d67_story.html)][[NewScientist](https://www.newscientist.com/article/2445014-most-climate-policies-do-little-to-prevent-climate-change/)][[Associated
+Press](https://apnews.com/article/climate-change-price-hike-policies-emissions-1d211ff66f7ab768a69466b9af281c79)][[CNN](https://amp.cnn.com/cnn/2024/08/22/climate/climate-policies-review-coal-cars)][[CBC](https://www.cbc.ca/news/science/effective-climate-policies-1.7301998)][[The
+Economist](https://www.economist.com/science-and-technology/2024/10/02/why-its-so-hard-to-tell-which-climate-policies-actually-work)][[The
+Times](https://www.thetimes.com/business-money/economics/article/harris-and-trump-are-too-busy-scrapping-old-promises-to-mention-what-matters-5whl8ql5d)][[El
+Mundo](https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2024/08/22/66c75f4a21efa0c2478b456f.html)][[Le
+Monde](https://www.lemonde.fr/planete/article/2024/09/08/climat-seule-la-combinaison-de-plusieurs-mesures-est-efficace-pour-faire-baisser-les-emissions-de-gaz-a-effet-de-serre_6307004_3244.html)][[L’Express](https://www.lexpress.fr/environnement/pour-reduire-les-emissions-de-co2-vaut-il-mieux-agiter-la-carotte-ou-le-baton-QLJGPZJP2VBKBK7E5X3OCZ4NTI/)][[France
+Culture](https://www.radiofrance.fr/franceculture/podcasts/avec-sciences/climat-une-infime-partie-des-politiques-ont-un-reel-impact-4190342)][[ORF](https://science.orf.at/stories/3226410/)][[Der
+Standard](https://www.derstandard.at/story/3000000233384/von-1500-massnahmen-fuer-weniger-emissionen-waren-nur-63-sehr-erfolgreich)][[Spiegel](https://www.spiegel.de/wissenschaft/klimaneutralitaet-bis-2050-studie-zeigt-welche-massnahmen-besonders-wirksam-sind-a-6d162367-f1ff-427a-b4a0-34d7827dea4c)][[Zeit](https://www.zeit.de/wissen/umwelt/2024-08/klimaschtzpolitik-co2-ausstoss-massnahmen-nachhaltigkeit-mobilitaet)][[FAZ](https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/klimapolitik-verbote-allein-bewirken-wenig-19938361.html)][[SZ](https://www.sueddeutsche.de/wissen/politik-klimaschutz-massnahmen-auswertung-lux.NDXE6KZQpvGs37KU23gUyx?reduced=true)][[zdf](https://www.zdf.de/nachrichten/politik/deutschland/klimawandel-massnahmen-klimapolitik-100.html)][[Deutschlandfunk](https://www.deutschlandfunk.de/gute-klimapolitik-welche-massnahmen-die-emissionen-wirklich-senken-dlf-7cea458e-100.html)][[Nature
+News](https://www.nature.com/articles/d41586-024-02717-7)]
+
+### ***Energy Policy:*** Identifying successful climate policies
+
+We have recently published a paper in *Energy Policy* that considers the
+dynamics of the US labour market that are associated with coal mines
+closing. The paper finds that coal mine closures raise US county
+unemployment rates with spatial ripple effects and that Just Transition
+interventions should tailor to local conditions to alleviate impacts.
+
+[Mark, E., Rafaty, R. and Schwarz, M. (2024). **Spatio-temporal dynamics
+of structural unemployment in declining coal mining regions and
+potentialities of the ‘just transition’**. *Energy
+Policy*.](https://www.sciencedirect.com/science/article/pii/S0301421524003586)
+
+You can find my full publication list
+[here](https://moritzpschwarz.github.io/publications/).
+
+<a class="twitter-timeline" data-lang="en" data-width="500" data-height="700" data-dnt="true" data-theme="light" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets
+by MoritzPSchwarz</a>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <!-- My research, under the supervision of Prof Cameron Hepburn and Prof Sir David Hendry, focuses on the macro-econometric estimation of climate impacts. Further research interests include spatial econometrics and remote-sensing.
 I holds a degree from the London School of Economics and Political Science and an MSc from Oxford’s Environmental Change Institute. Before continuing his studies at Oxford, he worked for the Austrian government and coordinated the activities in international environmental negotiations associated with Austria’s Presidency of the Council of the EU in 2018 (with a focus on climate, biodiversity, whaling and governance negotiations).
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
