@@ -130,7 +130,7 @@ Policy*.](https://www.sciencedirect.com/science/article/pii/S0301421524003586)
 You can find my full publication list
 [here](https://moritzpschwarz.github.io/publications/).
 
-<a class="twitter-timeline" href="https://twitter.com/MoritzPSchwarz?ref_src=twsrc%5Etfw">Tweets by MoritzPSchwarz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <!-- My research, under the supervision of Prof Cameron Hepburn and Prof Sir David Hendry, focuses on the macro-econometric estimation of climate impacts. Further research interests include spatial econometrics and remote-sensing.
 I holds a degree from the London School of Economics and Political Science and an MSc from Oxford’s Environmental Change Institute. Before continuing his studies at Oxford, he worked for the Austrian government and coordinated the activities in international environmental negotiations associated with Austria’s Presidency of the Council of the EU in 2018 (with a focus on climate, biodiversity, whaling and governance negotiations).
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
