@@ -85,7 +85,7 @@ policies like these ones, the remaining emissions gap for 2030 could be
 closed by as much as 26% to 41%. The identified successful policies have
 led to an average emission reduction of 19 percent. In total, the 63
 policy interventions reduced emissions between 0.6 and 1.8 billion
-tonnes of CO~2~.
+tonnes of CO2.
 
 For more detail on the identified policies, check out our [Climate
 Policy Exporer](http://climate-policy-explorer.pik-potsdam.de/) where
@@ -97,9 +97,7 @@ F., Ritter N., Schwarz M., et al. (2024). **Climate policies that
 achieved major emission reductions: Global evidence from two decades.**
 *Science*.](https://www.science.org/doi/10.1126/science.adl6547)
 
-[[Published
-Paper](https://www.science.org/doi/10.1126/science.adl6547)][Preprint][[Data
-and code](https://zenodo.org/records/12773811)][[Interactive web
+[[Data and code](https://zenodo.org/records/12773811)][[Interactive web
 dashboard](http://climate-policy-explorer.pik-potsdam.de/)]\
 
 **Media**: [[New York
