@@ -114,7 +114,7 @@ Culture](https://www.radiofrance.fr/franceculture/podcasts/avec-sciences/climat-
 Standard](https://www.derstandard.at/story/3000000233384/von-1500-massnahmen-fuer-weniger-emissionen-waren-nur-63-sehr-erfolgreich)][[Spiegel](https://www.spiegel.de/wissenschaft/klimaneutralitaet-bis-2050-studie-zeigt-welche-massnahmen-besonders-wirksam-sind-a-6d162367-f1ff-427a-b4a0-34d7827dea4c)][[Zeit](https://www.zeit.de/wissen/umwelt/2024-08/klimaschtzpolitik-co2-ausstoss-massnahmen-nachhaltigkeit-mobilitaet)][[FAZ](https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/klimapolitik-verbote-allein-bewirken-wenig-19938361.html)][[SZ](https://www.sueddeutsche.de/wissen/politik-klimaschutz-massnahmen-auswertung-lux.NDXE6KZQpvGs37KU23gUyx?reduced=true)][[zdf](https://www.zdf.de/nachrichten/politik/deutschland/klimawandel-massnahmen-klimapolitik-100.html)][[Deutschlandfunk](https://www.deutschlandfunk.de/gute-klimapolitik-welche-massnahmen-die-emissionen-wirklich-senken-dlf-7cea458e-100.html)][[Nature
 News](https://www.nature.com/articles/d41586-024-02717-7)]
 
-### ***Energy Policy:*** Identifying successful climate policies
+### ***Energy Policy:*** Labour Market Impacts of Coal Mine Closures
 
 We have recently published a paper in *Energy Policy* that considers the
 dynamics of the US labour market that are associated with coal mines
