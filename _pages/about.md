@@ -17,7 +17,7 @@ editor_options:
 
 I am a Climate and Environmental Economist and currently hold the
 [Einstein International Postdoctoral
-Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/)
+Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz)
 financed by the Einstein Foundation in Berlin. I have obtained a DPhil
 (PhD) in the field of Climate Econometrics from the University of Oxford
 and am currently based at the Faculty of Economics and Management at TU
@@ -90,14 +90,13 @@ For more detail on the identified policies, check out our [Climate
 Policy Exporer](http://climate-policy-explorer.pik-potsdam.de/) where
 you can dive deeper into our results and findings.
 
-\
 [Stechemesser A., Koch, N., Mark E., Klösel P., Nachtigall, D., Pretis,
 F., Ritter N., Schwarz M., et al. (2024). **Climate policies that
 achieved major emission reductions: Global evidence from two decades.**
 *Science*.](https://www.science.org/doi/10.1126/science.adl6547)
 
 [[Data and code](https://zenodo.org/records/12773811)][[Interactive web
-dashboard](http://climate-policy-explorer.pik-potsdam.de/)]\
+dashboard](http://climate-policy-explorer.pik-potsdam.de/)]
 
 **Media**: [[New York
 Times](https://www.nytimes.com/2024/08/22/climate/climate-policies.html)][[Financial
