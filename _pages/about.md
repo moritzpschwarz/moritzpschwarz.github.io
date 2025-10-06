@@ -57,6 +57,10 @@ As a Clarendon Scholar, my DPhil was supported by the Clarendon Fund,
 while my research was supervised by Prof Sir David F Hendry and Prof
 Cameron Hepburn.
 
+## CV: 
+
+[Here you can find my most up-to-date CV.](https://moritzschwarz.org/files/CV.pdf)
+
 ## Newest Research: 
 
 ### ***Science:*** Identifying successful climate policies
