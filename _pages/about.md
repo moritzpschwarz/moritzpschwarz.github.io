@@ -18,7 +18,7 @@ editor_options:
 I am a Climate and Environmental Economist and currently hold the
 [Einstein International Postdoctoral
 Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz)
-financed by the Einstein Foundation in Berlin. I have obtained a DPhil
+financed by the Einstein Foundation in Berlin and **I am on the 2025/2026 Job Market**. I have obtained a DPhil
 (PhD) in the field of Climate Econometrics from the University of Oxford
 and am currently based at the Faculty of Economics and Management at TU
 Berlin and the Potsdam Institute of Climate Impact Research (PIK) as
@@ -57,9 +57,14 @@ As a Clarendon Scholar, my DPhil was supported by the Clarendon Fund,
 while my research was supervised by Prof Sir David F Hendry and Prof
 Cameron Hepburn.
 
-## CV: 
+## Job Market Paper
+
+[Here you can find my Job Market Paper.](https://moritzschwarz.org/files/JMP.pdf)
+
+## CV
 
 [Here you can find my most up-to-date CV.](https://moritzschwarz.org/files/CV.pdf)
+
 
 ## Newest Research: 
 
