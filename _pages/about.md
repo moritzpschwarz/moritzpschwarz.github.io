@@ -11,59 +11,52 @@ editor_options:
     wrap: 72
 ---
 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
+
+<!-- Front page content for academic job market -->
 
 # Welcome to my personal website
 
-I am a Climate and Environmental Economist and currently hold the
-[Einstein International Postdoctoral
-Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz)
-financed by the Einstein Foundation in Berlin and **I am on the 2025/2026 Job Market**. I have obtained a DPhil
-(PhD) in the field of Climate Econometrics from the University of Oxford
-and am currently based at the Faculty of Economics and Management at TU
-Berlin and the Potsdam Institute of Climate Impact Research (PIK) as
-well as the [Climate Econometrics](https://www.climateeconometrics.org/)
-research group at the University of Oxford.
+I am an applied economist and econometrician with a focus on **causal identification, empirical macro-modelling, and environmental and climate policy**. I currently hold an [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz) financed by the Einstein Foundation in Berlin, and **I am on the 2025/2026 job market**.
 
-In my research, I make ample use of econometric time series and panel
-methods to study climate change and how to address it. My research
-focuses on quantifying the effects of climate policies on emission
-trajectories using methods from the macro-econometrics as well as the
-causal inference literature. This includes efforts to study which
-policies can be the most effective at reducing emissions. I use similar
-methods to create forecasting models of the energy system (e.g. the
-[Open-Source Empirical Macro Model](osem)) and have published on the
-economic impacts of climate change as well as on Just Transition aspects
-of the Clean Energy Transition.
+[You can find my Job Market Paper here](https://moritzschwarz.org/files/JMP.pdf) and you can find my [most recent CV here.](https://moritzschwarz.org/files/CV.pdf)
 
-I contribute to the development of open-source estimation software to
-disseminate the methods and techniques we develop, such as the [{gets}
-R-package](https://cran.r-project.org/web/packages/gets/index.html)
-(general to specific modelling techniques, indicator saturation, and
-model selection, see also [website here](gets)) and the [{getspanel}
-R-package](getspanel) (gets-type techniques for panels and causal
-inference, see also [website here](getspanel)). More recently, I have
-been developing the Open Source Empirical Macro Model (OSEM) as well as
-the associated R package [{osem}](osem) together with co-authors.
+I obtained my DPhil (PhD) in Economics from the University of Oxford working with the [Climate Econometrics](https://www.climateeconometrics.org/) group at Nuffield College, and I am based at the Faculty of Economics and Management at TU Berlin and at the Potsdam Institute for Climate Impact Research (PIK). I remain affiliated with the [Institute for New Economic Thinking at the Oxford Martin School](https://www.inet.ox.ac.uk/) and the [Smith School of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/).
 
-During my DPhil studies, I was based at the School of Geography and
-Environment. I remain associated with the [Climate
-Econometrics](https://www.climateeconometrics.org/) project at Nuffield
-College as well as with the [Institute for New Economic Thinking at the
-Oxford Martin School](https://www.inet.ox.ac.uk/) and the [Smith School
-of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/).
+## Research
 
-As a Clarendon Scholar, my DPhil was supported by the Clarendon Fund,
-while my research was supervised by Prof Sir David F Hendry and Prof
-Cameron Hepburn.
+My research combines **econometric method development** with **empirical macroeconomics** and **policy evaluation**. It is organised around three strands:
 
-## Job Market Paper
+1. **Causal identification and reverse-causal inference**  
+   I develop tools to detect unknown interventions and regime shifts as structural breaks in panel and time-series models, linking break detection to modern causal-inference frameworks. These methods underpin applications such as identifying which national climate and energy policies have actually reduced emissions (e.g. work published in *Science* and *Nature Energy*) and improving robustness in climate-impact estimation (e.g. *Journal of Econometrics*).
 
-[Here you can find my Job Market Paper.](https://moritzschwarz.org/files/JMP.pdf)
+2. **Empirical macro-modelling and forecasting under structural change**  
+   I lead the development of the **Open-Source Empirical Macro (OSEM)** model, a multi-equation empirical framework that jointly forecasts macroeconomic, energy, and environmental variables. OSEM combines automatic model selection, break detection, and error-correction techniques and is used by Austria’s Ministry of Finance and adapted for scenario analysis with the UK Department for Energy Security and Net Zero. This work complements structural/DSGE and CGE-type models and speaks to macro-fiscal, financial-stability, and transition questions.
 
-## CV
+3. **Applications in climate, energy, and just transitions**  
+   I apply these methods to quantify the real-world impacts of climate change and climate policy, including the effectiveness of national policy packages, the macroeconomic consequences of warming and extremes, and the labour-market and distributional dimensions of the clean energy transition. This includes work on just transition, state-owned enterprises, and the interaction between fiscal policy and climate objectives.
 
-[Here you can find my most up-to-date CV.](https://moritzschwarz.org/files/CV.pdf)
+Across these strands, a common theme is **empirical transparency in macroeconomic and environmental policy analysis**: using open, reproducible tools to understand which policies work, how shocks propagate through the economy, and how to design more resilient macroeconomic and climate strategies.
+
+## Software
+
+I contribute to several open-source R packages that implement the methods I use in my research:
+
+- [{gets}](https://cran.r-project.org/web/packages/gets/index.html): general-to-specific modelling, indicator saturation, structural breaks, and automated model selection.  
+- [{getspanel}](getspanel): extension of gets-type methods to panel data and causal-inference settings (including reverse-causal identification).  
+- [{osem}](osem): implementation of the Open-Source Empirical Macro model for joint macro–energy–emissions forecasting and scenario analysis.
+
+These packages are widely used by researchers and policy institutions and form the backbone of my empirical work.
+
+## Background and affiliations
+
+During my DPhil studies at Oxford (Brasenose College), I worked closely with the Climate Econometrics project at Nuffield College. My doctoral research was supervised by Prof Sir David F. Hendry and Prof Cameron Hepburn and was supported by the Clarendon Fund.
+
+In addition to academic work, I have served as a Senior Climate Economist at Austria’s Ministry of Finance, contributing to macro-fiscal projections, green budgeting, and EU-level climate and energy policy processes (including the design of carbon pricing and the Carbon Border Adjustment Mechanism).
+
+
+<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
+
+
 
 
 ## Newest Research: 
