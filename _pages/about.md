@@ -16,7 +16,7 @@ editor_options:
 
 # Welcome to my personal website
 
-I am an applied economist and econometrician with a focus on **causal identification, empirical macro-modelling, and environmental and climate policy**. I currently hold an [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz) financed by the Einstein Foundation in Berlin, and **I am on the 2025/2026 job market**.
+I am an applied economist and econometrician with a focus on **causal identification, empirical macro-modelling, and environmental and climate policy**. I currently hold an [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz) financed by the Einstein Foundation in Berlin.
 
 [You can find my Job Market Paper here](https://moritzschwarz.org/files/JMP.pdf) and you can find my [most recent CV here.](https://moritzschwarz.org/files/CV.pdf)
 
