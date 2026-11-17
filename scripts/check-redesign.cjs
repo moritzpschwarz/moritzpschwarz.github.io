@@ -9,9 +9,17 @@ const { chromium } = require('playwright');
     await page.setViewportSize({ width, height: 1000 });
     for (const [name, path] of [['home', '/'], ['publications', '/publications/']]) {
       const response = await page.goto('http://127.0.0.1:4000' + path);
+      if (await page.locator('.masthead').evaluate(el => getComputedStyle(el).position) !== 'sticky') throw Error('Preview stylesheet did not load');
       if (!response.ok()) throw Error('Page failed: ' + path);
       if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) throw Error('Horizontal overflow: ' + name + ' at ' + width);
       await page.screenshot({ path: '_site/review-' + name + '-' + width + '.png', fullPage: true });
+      if (width === 1440) {
+        const image = await page.screenshot({ type: 'jpeg', quality: 65 });
+        console.log('REVIEW_START_' + name);
+        const encoded = image.toString('base64');
+        for (let i=0; i<encoded.length; i+=4096) console.log(encoded.slice(i,i+4096));
+        console.log('REVIEW_END_' + name);
+      }
     }
     const visible = () => page.locator('[data-publication]:visible').count();
     if (await visible() !== 15) throw Error('Incomplete catalogue');
