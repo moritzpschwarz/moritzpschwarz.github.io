@@ -1,0 +1,24 @@
+name: Build redesign preview
+on:
+  push:
+    branches: [redesign/academic-2026]
+  pull_request:
+    branches: [master]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - run: bundle exec jekyll build --safe --destination _site
+        env:
+          JEKYLL_ENV: production
+      - uses: actions/upload-artifact@v4
+        with:
+          name: redesign-preview
+          path: _site

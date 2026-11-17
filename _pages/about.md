@@ -3,6 +3,8 @@ permalink: /
 title: ""
 excerpt: "About me"
 author_profile: true
+classes:
+  - home-page
 redirect_from: 
   - /about/
   - /about.html
@@ -12,15 +14,24 @@ editor_options:
 ---
 
 
-<!-- Front page content for academic job market -->
+<section class="home-hero">
+  <p class="home-hero__eyebrow">Applied economics · Econometrics · Climate policy</p>
+  <h1>Moritz P. Schwarz</h1>
+  <p class="home-hero__lead">I am an applied economist and econometrician working on causal identification, empirical macro-modelling, and environmental and climate policy.</p>
+  <div class="hero-actions">
+    <a class="hero-button" href="{{ "/publications/" | relative_url }}">Explore publications</a>
+    <a class="hero-button hero-button--secondary" href="{{ "/files/JMP.pdf" | relative_url }}">Job market paper</a>
+    <a class="hero-button hero-button--secondary" href="{{ "/files/CV.pdf" | relative_url }}">Download CV</a>
+  </div>
+</section>
 
-# Welcome to my personal website
+<div class="home-intro" markdown="1">
 
-I am an applied economist and econometrician with a focus on **causal identification, empirical macro-modelling, and environmental and climate policy**. I currently hold an [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz) financed by the Einstein Foundation in Berlin.
-
-[You can find my Job Market Paper here](https://moritzschwarz.org/files/JMP.pdf) and you can find my [most recent CV here.](https://moritzschwarz.org/files/CV.pdf)
+I currently hold an [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz) financed by the Einstein Foundation in Berlin, and **I am on the 2026/2027 job market**.
 
 I obtained my DPhil (PhD) in Economics from the University of Oxford working with the [Climate Econometrics](https://www.climateeconometrics.org/) group at Nuffield College, and I am based at the Faculty of Economics and Management at TU Berlin and at the Potsdam Institute for Climate Impact Research (PIK). I remain affiliated with the [Institute for New Economic Thinking at the Oxford Martin School](https://www.inet.ox.ac.uk/) and the [Smith School of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/).
+
+</div>
 
 ## Research
 
@@ -30,7 +41,7 @@ My research combines **econometric method development** with **empirical macroec
    I develop tools to detect unknown interventions and regime shifts as structural breaks in panel and time-series models, linking break detection to modern causal-inference frameworks. These methods underpin applications such as identifying which national climate and energy policies have actually reduced emissions (e.g. work published in *Science* and *Nature Energy*) and improving robustness in climate-impact estimation (e.g. *Journal of Econometrics*).
 
 2. **Empirical macro-modelling and forecasting under structural change**  
-   I lead the development of the **Open-Source Empirical Macro (OSEM)** model, a multi-equation empirical framework that jointly forecasts macroeconomic, energy, and environmental variables. OSEM combines automatic model selection, break detection, and error-correction techniques and is used by Austria’s Ministry of Finance and adapted for scenario analysis with the UK Department for Energy Security and Net Zero. This work complements structural/DSGE and CGE-type models and speaks to macro-fiscal, financial-stability, and transition questions.
+   I lead the development of the **Open-Source Empirical Macro (OSEM)** model, a multi-equation empirical framework that jointly forecasts macroeconomic, energy, and environmental variables. OSEM combines automatic model selection, break detection, and error-correction techniques and is used by Austria’s Ministry of Finance and the UK Department for Energy Security and Net Zero. This work complements structural/DSGE and CGE-type models and speaks to macro-fiscal, financial-stability, and transition questions.
 
 3. **Applications in climate, energy, and just transitions**  
    I apply these methods to quantify the real-world impacts of climate change and climate policy, including the effectiveness of national policy packages, the macroeconomic consequences of warming and extremes, and the labour-market and distributional dimensions of the clean energy transition. This includes work on just transition, state-owned enterprises, and the interaction between fiscal policy and climate objectives.
@@ -59,7 +70,7 @@ In addition to academic work, I have served as a Senior Climate Economist at Aus
 
 
 
-## Newest Research: 
+## Selected Research: 
 
 ### ***Science:*** Identifying successful climate policies
 
