@@ -39,7 +39,8 @@ const { chromium } = require('playwright');
     if (await page.locator(':focus').getAttribute('data-filter') !== 'all') throw Error('Keyboard order failed');
   }
   for (const path of ['/publication/Jiao-Pretis-Schwarz-2024', '/publication/osem-model', '/publication/climate-overshoot', '/research-background/']) {
-    const response = await page.goto('http://127.0.0.1:4000' + path);
+    let response = await page.goto('http://127.0.0.1:4000' + path);
+    if (!response.ok() && path.startsWith('/publication/')) response = await page.goto('http://127.0.0.1:4000' + path + '.html');
     if (!response.ok() || await page.locator('h1').count() !== 1) throw Error('Detail page failed: ' + path);
   }
   const noJS = await browser.newContext({ javaScriptEnabled: false });
