@@ -18,7 +18,7 @@ const { chromium } = require('playwright');
     for (const [name, expected] of [['Journal articles', 10], ['Working papers', 2], ['Reports', 3], ['All', 15]]) {
       const button = page.getByRole('button', { name, exact: true });
       await button.click();
-      if (await visible() !== expected || await button.getAttribute('aria-pressed') !== 'true') throw Error('Filter failed: ' + name);
+      if (await visible() !== expected || await button.getAttribute('aria-pressed') !== 'true') throw Error('Filter failed: ' + name + ' visible=' + await visible() + ' pressed=' + await button.getAttribute('aria-pressed') + ' errors=' + errors.join(';') + ' cards=' + await page.locator('[data-publication]').evaluateAll(cards => JSON.stringify(cards.map(c => [c.dataset.type, c.hidden, getComputedStyle(c).display]))));
     }
     await page.locator('input[type=search]').fill('pretis 2024');
     if (await visible() !== 2) throw Error('Multi-term search failed');
