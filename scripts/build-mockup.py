@@ -31,5 +31,12 @@ page=f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewpo
 function route(){{var pub=location.hash==='#publications';document.getElementById('home-view').hidden=pub;document.getElementById('publications-view').hidden=!pub;document.body.className=pub?'publications-page':'home-page';window.scrollTo(0,0)}}window.addEventListener('hashchange',route);route();document.querySelectorAll('a[href="/publications/"]').forEach(a=>a.href='#publications');document.querySelectorAll('a[href^="/files/"]').forEach(a=>a.href='https://moritzschwarz.org'+a.getAttribute('href'));</script></body></html>'''
 page=re.sub(r'<div class="home-grid"><aside.*?</aside>', '<div>', page, flags=re.S)
 page=page.replace('>Coding</a>', '>Resources</a>')
+teaching=(root/'_pages/teaching.html').read_text().split('---',2)[2]
+teaching=re.sub(r"{{\s*'([^']+)'\s*\|\s*relative_url\s*}}", r"https://moritzschwarz.org\1", teaching)
+page=page.replace('</main>', '<section id="teaching-view" hidden><h1 class="page__title">Teaching</h1>'+teaching+'</section></main>')
+page=page.replace('href="https://moritzschwarz.org/teaching/"', 'href="#teaching"')
+page=page.replace("var pub=location.hash==='#publications';", "var pub=location.hash==='#publications';var teach=location.hash==='#teaching';document.getElementById('teaching-view').hidden=!teach;")
+page=page.replace("document.getElementById('home-view').hidden=pub", "document.getElementById('home-view').hidden=pub||teach")
+page=page.replace("pub?'publications-page':'home-page'", "pub?'publications-page':teach?'teaching-page':'home-page'")
 (root/'docs/redesign-mockup.html').write_text(page)
 print('Built mockup:',len(pubs),'publications')

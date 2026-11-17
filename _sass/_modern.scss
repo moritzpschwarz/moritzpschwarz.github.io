@@ -376,3 +376,11 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .publication-detail .publication-actions { margin-top: 1.2rem; }
 .home-page .page { width: 100%; float: none; padding: 0; }
 .home-page .home-intro { max-width: 900px; }
+
+.teaching-page #main { max-width: 1000px; }
+.teaching-page .archive, .teaching-page .page { width: 100%; float: none; margin: 0; padding: 0; }
+.teaching-intro { font-size: 1.05rem; max-width: 850px; }
+.teaching-page h2 { margin-top: 2.6rem; padding-bottom: .5rem; border-bottom: 1px solid var(--line); }
+.teaching-course { margin: 1.5rem 0 2rem; }
+.teaching-course h3 { margin-bottom: .3rem; }
+.teaching-meta { color: var(--ink-soft); font-size: .85rem; }

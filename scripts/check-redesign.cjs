@@ -7,7 +7,7 @@ const { chromium } = require('playwright');
   page.on('pageerror', error => errors.push(error.message));
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 1000 });
-    for (const [name, path] of [['home', '/'], ['publications', '/publications/']]) {
+    for (const [name, path] of [['home', '/'], ['publications', '/publications/'], ['teaching', '/teaching/']]) {
       const response = await page.goto('http://127.0.0.1:4000' + path);
       await page.evaluate(() => Promise.all(document.getAnimations().filter(a => a.effect.getTiming().iterations !== Infinity).map(a => a.finished)));
       if (await page.locator('.masthead').evaluate(el => getComputedStyle(el).position) !== 'sticky') throw Error('Preview stylesheet did not load');
@@ -22,6 +22,7 @@ const { chromium } = require('playwright');
         console.log('REVIEW_END_' + name);
       }
     }
+    await page.goto('http://127.0.0.1:4000/publications/');
     const visible = () => page.locator('[data-publication]:visible').count();
     if (await visible() !== 17) throw Error('Incomplete catalogue');
     for (const [name, expected] of [['Journal articles', 10], ['Working papers', 4], ['Reports', 3], ['All', 17]]) {
@@ -38,7 +39,7 @@ const { chromium } = require('playwright');
     await page.keyboard.press('Tab');
     if (await page.locator(':focus').getAttribute('data-filter') !== 'all') throw Error('Keyboard order failed');
   }
-  for (const path of ['/publication/Jiao-Pretis-Schwarz-2024', '/publication/osem-model', '/publication/climate-overshoot', '/research-background/']) {
+  for (const path of ['/publication/Jiao-Pretis-Schwarz-2024', '/publication/osem-model', '/publication/climate-overshoot', '/research-background/', '/teaching/causal-inference/', '/teaching/time-series/']) {
     let response = await page.goto('http://127.0.0.1:4000' + path);
     if (!response.ok() && path.startsWith('/publication/')) response = await page.goto('http://127.0.0.1:4000' + path + '.html');
     if (!response.ok() || await page.locator('h1').count() !== 1) throw Error('Detail page failed: ' + path);
