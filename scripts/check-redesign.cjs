@@ -23,8 +23,8 @@ const { chromium } = require('playwright');
       }
     }
     const visible = () => page.locator('[data-publication]:visible').count();
-    if (await visible() !== 15) throw Error('Incomplete catalogue');
-    for (const [name, expected] of [['Journal articles', 10], ['Working papers', 2], ['Reports', 3], ['All', 15]]) {
+    if (await visible() !== 17) throw Error('Incomplete catalogue');
+    for (const [name, expected] of [['Journal articles', 10], ['Working papers', 4], ['Reports', 3], ['All', 17]]) {
       const button = page.getByRole('button', { name, exact: true });
       await button.click();
       if (await visible() !== expected || await button.getAttribute('aria-pressed') !== 'true') throw Error('Filter failed: ' + name + ' visible=' + await visible() + ' pressed=' + await button.getAttribute('aria-pressed') + ' errors=' + errors.join(';') + ' cards=' + await page.locator('[data-publication]').evaluateAll(cards => JSON.stringify(cards.map(c => [c.dataset.type, c.hidden, getComputedStyle(c).display]))));
@@ -41,8 +41,8 @@ const { chromium } = require('playwright');
   const noJS = await browser.newContext({ javaScriptEnabled: false });
   const fallback = await noJS.newPage();
   await fallback.goto('http://127.0.0.1:4000/publications/');
-  if (await fallback.locator('[data-publication]:visible').count() !== 15) throw Error('No-JS fallback failed');
+  if (await fallback.locator('[data-publication]:visible').count() !== 17) throw Error('No-JS fallback failed');
   if (errors.length) throw Error(errors.join('\n'));
   await browser.close();
-  console.log('PASS: desktop/mobile layout, 15 records, filters, search, empty state, keyboard order and no-JS fallback.');
+  console.log('PASS: desktop/mobile layout, 17 records, filters, search, empty state, keyboard order and no-JS fallback.');
 })().catch(error => { console.error(error); process.exit(1); });

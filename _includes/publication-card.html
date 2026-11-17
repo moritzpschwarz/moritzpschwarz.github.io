@@ -10,7 +10,7 @@
     <p class="publication-venue">{{ include.publication.venue | escape }}</p>
   </div>
   <div class="publication-actions" aria-label="Publication links">
-    <a href="{{ include.publication.paper_url | relative_url }}">Paper</a>
+    {% if include.publication.paper_url and include.publication.paper_url != empty %}<a href="{{ include.publication.paper_url | relative_url }}">Paper</a>{% endif %}
     <a href="{{ include.publication.detail_url | relative_url }}">Details</a>
   </div>
 </article>

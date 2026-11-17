@@ -1,3 +1,20 @@
+- title: An Open-Source Empirical Macroeconomic (OSEM) Model for Economic and Emission Forecasting
+  year: —
+  type: working-paper
+  type_label: Conditionally accepted
+  venue: International Journal of Forecasting — conditionally accepted
+  authors: Moritz Schwarz, J. Kurle, F. Pretis, A. Martinez and G. Harper
+  detail_url: /publication/osem-model
+  paper_url: ''
+- title: 'Temporary warming, lasting losses: Economic damages from climate overshoot may be irreversible within this century'
+  year: —
+  type: working-paper
+  type_label: Revise and resubmit
+  venue: One Earth — revise and resubmit (R&R)
+  authors: S. Schöngart, Moritz Schwarz, J. Schwaab, F. Pretis, P. Pfleiderer and C.-F. Schleußner
+  detail_url: /publication/climate-overshoot
+  paper_url: ''
+
 - title: "Discovering What Mattered: Answering Reverse Causal Questions by Detecting Unknown Treatment Assignment and Timing as Breaks in Panel Models"
   year: 2026
   type: working-paper
