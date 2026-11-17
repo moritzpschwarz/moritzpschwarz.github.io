@@ -364,3 +364,15 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
   .publication-filter { min-height: 44px; }
   .publication-actions a { min-height: 44px; display: inline-flex; align-items: center; }
 }
+
+/* Shared publication-detail presentation. */
+.publication-detail { max-width: 1000px !important; padding: 0 1rem; }
+.publication-back { display: inline-block; margin-bottom: 2rem; font-size: .85rem; }
+.publication-detail header { border-bottom: 1px solid var(--line); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+.publication-detail .page__title { font-size: clamp(1.8rem, 4vw, 3rem); margin-bottom: 1.25rem; }
+.publication-detail__status { color: var(--accent-dark); font-size: .85rem; }
+.publication-detail .publication-authors { font-size: 1rem; margin-bottom: .6rem; }
+.publication-detail .publication-venue { font-size: .95rem; }
+.publication-detail .publication-actions { margin-top: 1.2rem; }
+.home-page .page { width: 100%; float: none; padding: 0; }
+.home-page .home-intro { max-width: 900px; }

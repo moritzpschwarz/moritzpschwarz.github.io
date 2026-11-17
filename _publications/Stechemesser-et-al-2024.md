@@ -1,15 +1,13 @@
 ---
+layout: publication
 title: 'Climate policies that achieved major emission reductions: Global evidence from two decades'
 collection: publications
 permalink: /publication/Stechemesser-et-al-2024
 date: 2024-08-22
 venue: 'Science'
 ---
-  
-[Link to Paper](https://www.science.org/doi/10.1126/science.adl6547)
 
-
-**Abstract:**
+## Abstract
 Meeting the Paris Agreement’s climate targets necessitates better knowledge about which climate policies work in reducing emissions at the necessary scale. We provide a global, systematic ex post evaluation to identify policy combinations that have led to large emission reductions out of 1500 climate policies implemented between 1998 and 2022 across 41 countries from six continents. Our approach integrates a comprehensive climate policy database with a machine learning–based extension of the common difference-in-differences approach. We identified 63 successful policy interventions with total emission reductions between 0.6 billion and 1.8 billion metric tonnes CO2. Our insights on effective but rarely studied policy combinations highlight the important role of price-based instruments in well-designed policy mixes and the policy efforts necessary for closing the emissions gap.
 
 As part of an international research team, we have published the first global assessment of climate policies in the four most critical emission sectors in the journal *Science*.
@@ -37,3 +35,4 @@ Monde](https://www.lemonde.fr/planete/article/2024/09/08/climat-seule-la-combina
 Culture](https://www.radiofrance.fr/franceculture/podcasts/avec-sciences/climat-une-infime-partie-des-politiques-ont-un-reel-impact-4190342)][[ORF](https://science.orf.at/stories/3226410/)][[Der
 Standard](https://www.derstandard.at/story/3000000233384/von-1500-massnahmen-fuer-weniger-emissionen-waren-nur-63-sehr-erfolgreich)][[Spiegel](https://www.spiegel.de/wissenschaft/klimaneutralitaet-bis-2050-studie-zeigt-welche-massnahmen-besonders-wirksam-sind-a-6d162367-f1ff-427a-b4a0-34d7827dea4c)][[Zeit](https://www.zeit.de/wissen/umwelt/2024-08/klimaschtzpolitik-co2-ausstoss-massnahmen-nachhaltigkeit-mobilitaet)][[FAZ](https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/klimapolitik-verbote-allein-bewirken-wenig-19938361.html)][[SZ](https://www.sueddeutsche.de/wissen/politik-klimaschutz-massnahmen-auswertung-lux.NDXE6KZQpvGs37KU23gUyx?reduced=true)][[zdf](https://www.zdf.de/nachrichten/politik/deutschland/klimawandel-massnahmen-klimapolitik-100.html)][[Deutschlandfunk](https://www.deutschlandfunk.de/gute-klimapolitik-welche-massnahmen-die-emissionen-wirklich-senken-dlf-7cea458e-100.html)][[Nature
 News](https://www.nature.com/articles/d41586-024-02717-7)]
+
