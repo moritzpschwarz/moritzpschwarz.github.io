@@ -16,3 +16,7 @@ All changes are isolated on `redesign/academic-2026`. The build workflow produce
 `docs/redesign-mockup.html` is a standalone illustrative review mockup generated from the homepage and publication metadata, with the catalogue's production JavaScript. It is not a Jekyll deployment. The Actions artifact is the full Jekyll build.
 
 The original draft's report link pointed to the wrong PDF; the catalogue now uses `/files/Pictet-Report-2020.pdf` for *Climate change and emerging markets after Covid-19*. Existing detail content is preserved pending a separate content review.
+
+## Validation
+
+The GitHub Pages Jekyll build and browser checks passed at widths 1440 and 390. Checks cover catalogue completeness, all type filters, combined search terms, empty results, keyboard tab order, horizontal overflow and the no-JavaScript fallback. Preview-only URL configuration prevents tests loading the production stylesheet. Browser screenshots are included in the Actions artifact. The production branch remains at its original commit.

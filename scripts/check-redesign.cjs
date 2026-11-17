@@ -9,6 +9,7 @@ const { chromium } = require('playwright');
     await page.setViewportSize({ width, height: 1000 });
     for (const [name, path] of [['home', '/'], ['publications', '/publications/']]) {
       const response = await page.goto('http://127.0.0.1:4000' + path);
+      await page.evaluate(() => Promise.all(document.getAnimations().filter(a => a.effect.getTiming().iterations !== Infinity).map(a => a.finished)));
       if (await page.locator('.masthead').evaluate(el => getComputedStyle(el).position) !== 'sticky') throw Error('Preview stylesheet did not load');
       if (!response.ok()) throw Error('Page failed: ' + path);
       if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)) throw Error('Horizontal overflow: ' + name + ' at ' + width);
