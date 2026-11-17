@@ -1,0 +1,16 @@
+<article class="publication-card" data-publication data-type="{{ include.publication.type }}" data-search="{{ include.publication.title | strip_html | downcase | escape }} {{ include.publication.authors | downcase | escape }} {{ include.publication.venue | downcase | escape }} {{ include.publication.year }}">
+  {% assign author_line = include.publication.authors | escape | replace: 'Moritz Schwarz', '<strong>Moritz Schwarz</strong>' %}
+  <div class="publication-card__meta">
+    <div class="publication-year">{{ include.publication.year }}</div>
+    <div class="publication-type">{{ include.publication.type_label }}</div>
+  </div>
+  <div class="publication-card__body">
+    <h2><a href="{{ include.publication.detail_url | relative_url }}">{{ include.publication.title | escape }}</a></h2>
+    <p class="publication-authors">{{ author_line }}</p>
+    <p class="publication-venue">{{ include.publication.venue | escape }}</p>
+  </div>
+  <div class="publication-actions" aria-label="Publication links">
+    {% if include.publication.paper_url and include.publication.paper_url != empty %}<a href="{{ include.publication.paper_url | relative_url }}">Paper</a>{% endif %}
+    <a href="{{ include.publication.detail_url | relative_url }}">Details</a>
+  </div>
+</article>

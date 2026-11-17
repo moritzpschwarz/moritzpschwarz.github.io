@@ -1,0 +1,30 @@
+name: Build redesign preview
+on:
+  push:
+    branches: [redesign/academic-2026]
+  pull_request:
+    branches: [master]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - run: bundle exec jekyll build --safe --config _config.yml,_config.preview.yml --destination _site
+        env:
+          JEKYLL_ENV: production
+      - name: Check desktop and mobile preview
+        run: |
+          npm install --prefix /tmp/redesign-check playwright
+          python3 -m http.server 4000 --directory _site >/tmp/preview-server.log 2>&1 &
+          NODE_PATH=/tmp/redesign-check/node_modules node scripts/check-redesign.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: redesign-preview
+          path: _site

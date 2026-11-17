@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% assign record = site.data.publications | where: 'detail_url', page.url | first %}
+<main id="main" class="publication-detail" role="main">
+  <article>
+    <a class="publication-back" href="{{ '/publications/' | relative_url }}">← All publications</a>
+    <header>
+      <p class="publication-detail__status">{{ record.type_label | escape }}{% if record.year != '—' %} · {{ record.year }}{% endif %}</p>
+      <h1 class="page__title">{{ page.title | escape }}</h1>
+      <p class="publication-authors">{{ record.authors | escape | replace: 'Moritz Schwarz', '<strong>Moritz Schwarz</strong>' }}</p>
+      <p class="publication-venue">{{ record.venue | escape }}</p>
+      {% if record.paper_url and record.paper_url != empty %}<p class="publication-actions"><a href="{{ record.paper_url | relative_url }}">Read paper</a></p>{% endif %}
+    </header>
+    <section class="page__content">{{ content }}</section>
+  </article>
+</main>

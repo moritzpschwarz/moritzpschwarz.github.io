@@ -1,0 +1,583 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Moritz P. Schwarz — redesign mockup</title><style>*{box-sizing:border-box}body{margin:0}a{color:inherit}h1,h2,h3,p{margin-top:0}button,input{font:inherit}img{max-width:100%}.masthead{z-index:10}.masthead__inner-wrap{max-width:1180px;margin:auto;padding:18px 24px}.greedy-nav{display:flex;align-items:center;justify-content:space-between;gap:24px}.navlinks{display:flex;gap:24px;flex-wrap:wrap}.navlinks a{text-decoration:none;font-size:14px}.brand{text-decoration:none;font-weight:bold;font-family:Georgia,serif}#main{margin:56px auto;max-width:1180px;padding:0 24px}.home-grid{display:grid;grid-template-columns:190px minmax(0,1fr);gap:48px}.sidebar{align-self:start;position:sticky;top:100px;font-size:14px}.author__avatar img{width:150px;height:150px;object-fit:cover;border-radius:50%}.author__name{font-weight:bold}.author__urls{list-style:none;padding:0}.author__urls a{text-decoration:none}.author__urls li{margin:10px 0}.page__content img{max-width:100%;height:auto}.page__footer{padding:36px max(24px,calc((100% - 1132px)/2));font-size:13px}.home-page .page__content >ol:first-of-type{font-size:14px}.page__content{overflow-wrap:anywhere}.home-hero__lead{line-height:1.65}.page__content>ol{padding-left:22px}.publication-search{margin:0}.publication-tools{align-items:center}.publication-card h2{font-family:Georgia,serif}.preview-note{background:#f5f7f6;padding:8px 24px;font-size:12px;text-align:center;color:#536771}.page__content iframe{max-width:100%}@media(max-width:900px){.home-grid{grid-template-columns:1fr;gap:28px}.sidebar{position:static;display:none}.greedy-nav{align-items:start;flex-direction:column;gap:12px}.navlinks{gap:16px}#main{margin-top:28px}.page__footer{margin-top:48px}}
+/* Modern visual layer ------------------------------------------------------
+   Kept separate from the upstream AcademicPages theme so future content
+   updates remain straightforward. */
+
+:root {
+  --ink: #142b3a;
+  --ink-soft: #536771;
+  --paper: #ffffff;
+  --paper-warm: #f5f7f6;
+  --line: #dce5e4;
+  --accent: #087f73;
+  --accent-dark: #065f58;
+  --accent-pale: #e7f4f1;
+  --navy: #102f46;
+  --shadow: 0 18px 50px rgba(16, 47, 70, 0.08);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .page__title, .archive__item-title {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.022em;
+}
+
+a { color: var(--accent-dark); }
+a:hover { color: var(--accent); }
+
+.masthead {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid rgba(20, 43, 58, 0.1);
+  box-shadow: 0 1px 18px rgba(16, 47, 70, 0.04);
+  backdrop-filter: blur(14px);
+}
+
+.masthead__inner-wrap {
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+
+.masthead__menu-item a {
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 650;
+  letter-spacing: 0.025em;
+}
+
+.masthead__menu-item--lg a {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+.masthead__menu-item a:hover { color: var(--accent); }
+
+#main {
+  margin-top: 3.5rem;
+  max-width: 1180px;
+}
+
+.page {
+
+}
+
+.page__title {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.08;
+}
+
+.page__content { max-width: 790px; }
+
+.page__content h2 {
+  margin-top: 3.6rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--line);
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+}
+
+.page__content h3 { margin-top: 2.3rem; }
+.page__content p, .page__content li { color: #29424f; }
+.page__content a { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+
+.sidebar {
+
+}
+
+.author__avatar img {
+  border: 0;
+  padding: 0;
+  box-shadow: var(--shadow);
+}
+
+.sidebar .author__name {
+  margin-top: 1.2rem;
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.12rem;
+}
+
+.author__bio { color: var(--ink-soft); line-height: 1.55; }
+.author__urls li { color: var(--ink-soft); }
+.author__urls a { transition: color 160ms ease; }
+
+.page__footer {
+  margin-top: 6rem;
+  color: #c8d7dc;
+  background: var(--navy);
+  border: 0;
+}
+
+.page__footer .fas, .page__footer .fab, .page__footer .far { color: #c8d7dc; }
+
+/* Home */
+.home-hero {
+  position: relative;
+  overflow: hidden;
+  margin: -0.5rem 0 4rem;
+  padding: clamp(2.4rem, 6vw, 5.5rem);
+  color: white;
+  background: var(--navy);
+  border-radius: 2px 2px 32px 2px;
+  box-shadow: var(--shadow);
+}
+
+.home-hero__eyebrow {
+  margin: 0 0 1.15rem !important;
+  color: #80ddd0 !important;
+  font-size: 0.75rem !important;
+  font-weight: 750;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.home-hero h1 {
+  max-width: 760px;
+  margin: 0 0 1.25rem;
+  color: white;
+  font-size: clamp(2.3rem, 5vw, 4.75rem);
+  line-height: 1.05;
+}
+
+.home-hero__lead {
+  max-width: 760px;
+  margin-bottom: 1.7rem !important;
+  color: #d9e9ec !important;
+  font-size: clamp(1rem, 1.8vw, 1.25rem) !important;
+}
+
+.hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.8rem;
+  padding: 0.65rem 1.05rem;
+  color: var(--navy) !important;
+  background: white;
+  border: 1px solid white;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 750;
+  text-decoration: none !important;
+}
+.hero-button--secondary { color: white !important; background: transparent; }
+.hero-button:hover { transform: translateY(-1px); }
+
+.home-intro {
+  max-width: 780px;
+  margin-bottom: 3.5rem;
+  font-size: 1.04rem;
+}
+
+.home-page .page__content { max-width: none; }
+
+.home-page .page__content > ol:first-of-type {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: research;
+}
+
+.home-page .page__content > ol:first-of-type > li {
+  position: relative;
+  padding: 1.35rem;
+  background: var(--paper-warm);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  counter-increment: research;
+}
+
+.home-page .page__content > ol:first-of-type > li::before {
+  content: "0" counter(research);
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+/* Publications */
+.publications-page #main { max-width: 1160px; }
+.publications-page .archive { width: 100%; float: none; margin-left: 0; margin-right: 0; }
+.publications-page .page__title { margin-bottom: 0.65rem; }
+
+.publications-intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: end;
+  margin-bottom: 2.2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.publications-intro p { max-width: 690px; margin: 0; color: var(--ink-soft); font-size: 1.06rem; }
+.scholar-link { white-space: nowrap; font-size: 0.84rem; font-weight: 750; text-decoration: none; }
+
+.publication-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+
+.publication-search {
+  width: 280px;
+  max-width: 100%;
+  flex: 1 1 260px;
+  min-height: 2.75rem;
+  padding: 0.6rem 0.9rem;
+  color: var(--ink);
+  background: var(--paper-warm);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  font: inherit;
+  font-size: 0.86rem;
+}
+
+.publication-filter {
+  padding: 0.55rem 0.85rem;
+  color: var(--ink-soft);
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.publication-filter:hover,
+.publication-filter.is-active {
+  color: white;
+  background: var(--navy);
+  border-color: var(--navy);
+}
+
+.publication-list { display: grid; gap: 0.85rem; }
+
+.publication-card {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) auto;
+  gap: 1.3rem;
+  align-items: start;
+  padding: 1.35rem 1.45rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(16, 47, 70, 0.025);
+  transition: transform 170ms ease, box-shadow 170ms ease, border-color 170ms ease;
+}
+
+.publication-card:hover {
+  transform: translateY(-2px);
+  border-color: #bed3d0;
+  box-shadow: 0 14px 30px rgba(16, 47, 70, 0.08);
+}
+
+.publication-card[hidden] { display: none; }
+
+.publication-search:focus,
+.publication-filter:focus-visible,
+.publication-actions a:focus-visible,
+.hero-button:focus-visible {
+  outline: 3px solid rgba(8, 127, 115, 0.28);
+  outline-offset: 2px;
+}
+
+.publication-year { color: var(--accent); font-size: 0.82rem; font-weight: 800; letter-spacing: 0.06em; }
+.publication-type { margin-top: 0.28rem; color: #71848b; font-size: 0.67rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.publication-card h2 { margin: 0 0 0.45rem; border: 0; font-size: 1.14rem; line-height: 1.35; }
+.publication-card h2 a { color: var(--navy); text-decoration: none; }
+.publication-authors { margin: 0 0 0.2rem; color: var(--ink-soft); font-size: 0.82rem; line-height: 1.5; }
+.publication-authors strong { color: var(--ink); font-weight: 750; }
+.publication-venue { margin: 0; color: var(--accent-dark); font-size: 0.79rem; font-weight: 700; }
+.publication-actions { display: flex; gap: 0.45rem; }
+.publication-actions a {
+  padding: 0.42rem 0.65rem;
+  color: var(--navy);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  font-size: 0.72rem;
+  font-weight: 750;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.publication-actions a:first-child { color: white; background: var(--accent-dark); border-color: var(--accent-dark); }
+.publication-empty { padding: 2rem; color: var(--ink-soft); text-align: center; }
+
+@media (max-width: 900px) {
+  .home-page .page__content > ol:first-of-type { grid-template-columns: 1fr; }
+  .publications-intro { align-items: start; flex-direction: column; }
+  .publication-card { grid-template-columns: 58px minmax(0, 1fr); }
+  .publication-actions { grid-column: 2; }
+}
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  #main { margin-top: 2rem; }
+  .home-hero { margin-left: -1rem; margin-right: -1rem; border-radius: 0 0 24px 0; }
+  .publication-card { grid-template-columns: 1fr; gap: 0.55rem; padding: 1.1rem; }
+  .publication-actions { grid-column: 1; }
+  .publication-type { display: inline; margin-left: 0.5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* Keep native hidden semantics even when a component uses flex or grid. */
+[hidden] { display: none !important; }
+.publication-count { color: var(--ink-soft); font-size: 0.8rem; margin: 0 0 1rem; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.home-hero { border-radius: 3px; box-shadow: none; }
+.home-hero h1 { font-size: clamp(2.3rem, 5vw, 4rem); }
+.publication-card { border-radius: 4px; box-shadow: none; }
+.publication-card:hover { transform: none; box-shadow: none; }
+.home-page .page__content > ol:first-of-type > li { background: transparent; border: 0; border-top: 2px solid var(--accent); border-radius: 0; padding: 1.2rem 0.5rem 0 0; }
+@media (max-width: 600px) {
+  .home-hero { margin-left: 0; margin-right: 0; border-radius: 3px; padding: 1.5rem; }
+  .publication-filter { min-height: 44px; }
+  .publication-actions a { min-height: 44px; display: inline-flex; align-items: center; }
+}
+
+/* Shared publication-detail presentation. */
+.publication-detail { max-width: 1000px !important; padding: 0 1rem; }
+.publication-back { display: inline-block; margin-bottom: 2rem; font-size: .85rem; }
+.publication-detail header { border-bottom: 1px solid var(--line); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+.publication-detail .page__title { font-size: clamp(1.8rem, 4vw, 3rem); margin-bottom: 1.25rem; }
+.publication-detail__status { color: var(--accent-dark); font-size: .85rem; }
+.publication-detail .publication-authors { font-size: 1rem; margin-bottom: .6rem; }
+.publication-detail .publication-venue { font-size: .95rem; }
+.publication-detail .publication-actions { margin-top: 1.2rem; }
+.home-page .page { width: 100%; float: none; padding: 0; }
+.home-page .home-intro { max-width: 900px; }
+
+.teaching-page #main { max-width: 1000px; }
+.teaching-page .archive, .teaching-page .page { width: 100%; float: none; margin: 0; padding: 0; }
+.teaching-intro { font-size: 1.05rem; max-width: 850px; }
+.teaching-page h2 { margin-top: 2.6rem; padding-bottom: .5rem; border-bottom: 1px solid var(--line); }
+.teaching-course { margin: 1.5rem 0 2rem; }
+.teaching-course h3 { margin-bottom: .3rem; }
+.teaching-meta { color: var(--ink-soft); font-size: .85rem; }
+</style><body class="home-page"><div class="preview-note">Design preview · Homepage and Publications · Live website unchanged</div><header class="masthead"><div class="masthead__inner-wrap"><nav class="greedy-nav" aria-label="Main"><a class="brand" href="#home">Dr Moritz P. Schwarz</a><div class="navlinks"><a href="#publications">Publications</a><a href="#teaching">Teaching</a><a href="https://moritzschwarz.org/coding/">Resources</a><a href="https://moritzschwarz.org/getspanel/">getspanel package</a><a href="https://moritzschwarz.org/osem/">OSEM Model</a></div></nav></div></header><main id="main"><section id="home-view"><div><article class="page"><div class="page__content"><section class="home-hero">
+  <p class="home-hero__eyebrow">Applied economics · Econometrics · Climate policy</p>
+  <h1>Moritz P. Schwarz</h1>
+  <p class="home-hero__lead">I am an applied economist and econometrician working on causal identification, empirical macro-modelling, and environmental and climate policy.</p>
+  <div class="hero-actions">
+    <a class="hero-button" href="/publications/">Explore publications</a>
+    <a class="hero-button hero-button--secondary" href="/files/JMP.pdf">Job market paper</a>
+    <a class="hero-button hero-button--secondary" href="/files/CV.pdf">Download CV</a>
+  </div>
+</section>
+
+
+
+<p>I am an Einstein International Postdoctoral Fellow at <strong>TU Berlin and the Potsdam Institute for Climate Impact Research</strong>, and a <strong>Senior Climate Economist at Austria’s Ministry of Finance</strong>. <strong>I am on the 2026/2027 job market</strong>.</p>
+<p>I obtained my DPhil (PhD) in Economics from the University of Oxford working with the <a href="https://www.climateeconometrics.org/">Climate Econometrics</a> group at Nuffield College, and I am based at the Faculty of Economics and Management at TU Berlin and at the Potsdam Institute for Climate Impact Research (PIK). I remain affiliated with the <a href="https://www.inet.ox.ac.uk/">Institute for New Economic Thinking at the Oxford Martin School</a> and the <a href="https://www.smithschool.ox.ac.uk/">Smith School of Enterprise and the Environment</a>.</p>
+<h2>Research</h2>
+<p>My research combines <strong>econometric method development</strong> with <strong>empirical macroeconomics</strong> and <strong>policy evaluation</strong>. It is organised around three strands:</p>
+<ol>
+<li><p><strong>Causal identification and reverse-causal inference</strong><br>I develop tools to detect unknown interventions and regime shifts as structural breaks in panel and time-series models, linking break detection to modern causal-inference frameworks. These methods underpin applications such as identifying which national climate and energy policies have actually reduced emissions (e.g. work published in <em>Science</em> and <em>Nature Energy</em>) and improving robustness in climate-impact estimation (e.g. <em>Journal of Econometrics</em>).</p>
+</li>
+<li><p><strong>Empirical macro-modelling and forecasting under structural change</strong><br>I lead the development of the <strong>Open-Source Empirical Macro (OSEM)</strong> model, a multi-equation empirical framework that jointly forecasts macroeconomic, energy, and environmental variables. OSEM combines automatic model selection, break detection, and error-correction techniques and is used by Austria’s Ministry of Finance and the UK Department for Energy Security and Net Zero. This work complements structural/DSGE and CGE-type models and speaks to macro-fiscal, financial-stability, and transition questions.</p>
+</li>
+<li><p><strong>Applications in climate, energy, and just transitions</strong><br>I apply these methods to quantify the real-world impacts of climate change and climate policy, including the effectiveness of national policy packages, the macroeconomic consequences of warming and extremes, and the labour-market and distributional dimensions of the clean energy transition. This includes work on just transition, state-owned enterprises, and the interaction between fiscal policy and climate objectives.</p>
+</li>
+</ol>
+<p>Across these strands, a common theme is <strong>empirical transparency in macroeconomic and environmental policy analysis</strong>: using open, reproducible tools to understand which policies work, how shocks propagate through the economy, and how to design more resilient macroeconomic and climate strategies.</p>
+<h2>Research highlights</h2>
+<h3>Discovering What Mattered: detecting unknown treatment</h3>
+<p>My job-market paper with Felix Pretis develops the econometric foundations for investigating changes whose timing and assignment are not known in advance. We connect structural breaks to heterogeneous treatment effects in fixed-effects panel models, linking treatment detection to conventional policy-evaluation designs. Applications revisit Sweden’s carbon tax and the economic effects of ETA terrorism. Detecting a break identifies a candidate intervention; attributing it to a particular cause still requires substantive investigation.</p>
+<p>The paper is <strong>under review at the Journal of the American Statistical Association</strong>. <a href="/publication/Pretis-Schwarz-2022">Paper and abstract</a>.</p>
+<h3>OSEM: empirical macroeconomic and emissions forecasting</h3>
+<p>I lead development of the <strong>Open-Source Empirical Macroeconomic (OSEM)</strong> framework, which jointly models economic activity, energy use and emissions. OSEM retains accounting relationships while estimating economic dynamics from observed data. Our paper presents the framework and evaluates its real-time out-of-sample forecasting performance. The framework is used by Austria’s Ministry of Finance and the UK Department for Energy Security and Net Zero, with these applications informing its continuing development.</p>
+<p>Our paper is <strong>conditionally accepted at the International Journal of Forecasting</strong>. <a href="/publication/osem-model">Publication details</a> · <a href="/osem/">OSEM documentation</a>.</p>
+<h3>Temporary warming, lasting losses: climate overshoot</h3>
+<p>In joint work with S. Schöngart, J. Schwaab, F. Pretis, P. Pfleiderer and C.-F. Schleußner, we examine the economic consequences of temporarily exceeding a temperature target. The paper investigates whether the economic damages from climate overshoot may persist within this century, even when warming subsequently declines. It connects my work on empirical climate impacts with questions about the economic implications of different temperature pathways.</p>
+<p>The paper is at <strong>revise and resubmit at One Earth</strong>. <a href="/publication/climate-overshoot">Publication details</a>.</p>
+<h3><em><strong>Science:</strong></em> Identifying successful climate policies</h3>
+<p>As part of an international research team, we have published the first
+global assessment of climate policies in the four most critical emission
+sectors in the journal <em>Science</em>.</p>
+<p>We unveiled the first comprehensive global evaluation of 1,500 climate
+policy measures from 41 countries across six continents. We identified
+‘emission breaks’ and assigned them policy interventions, pinpointing
+where policies may have had a large impact. The break detection
+methodology, called indicator saturation estimation, developed at
+Climate Econometrics, allows break indicators for all possible dates to
+be examined objectively using a variant of machine learning. This
+unprecedented study provides a detailed impact analysis of the wide
+range of climate policy measures implemented across the planet over the
+last two decades.</p>
+<p>We have identified 63 cases of successful climate policies with large
+emission reductions with the key characteristic of these successful
+cases being the inclusion of tax and price incentives in well-designed
+policy mixes. Our study also shows that if more countries relied on
+policies like these ones, the remaining emissions gap for 2030 could be
+closed by as much as 26% to 41%. The identified successful policies have
+led to an average emission reduction of 19 percent. In total, the 63
+policy interventions reduced emissions between 0.6 and 1.8 billion
+tonnes of CO2.</p>
+<p>For more detail on the identified policies, check out our <a href="http://climate-policy-explorer.pik-potsdam.de/">Climate
+Policy Explorer</a> where
+you can dive deeper into our results and findings.</p>
+<p><a href="https://www.science.org/doi/10.1126/science.adl6547">Stechemesser A., Koch, N., Mark E., Klösel P., Nachtigall, D., Pretis,
+F., Ritter N., Schwarz M., et al. (2024). <strong>Climate policies that
+achieved major emission reductions: Global evidence from two decades.</strong>
+<em>Science</em>.</a></p>
+<p>[<a href="https://zenodo.org/records/12773811">Data and code</a>][<a href="http://climate-policy-explorer.pik-potsdam.de/">Interactive web
+dashboard</a>]</p>
+<details markdown="1">
+<summary>Selected media coverage</summary>
+
+<p> [<a href="https://www.nytimes.com/2024/08/22/climate/climate-policies.html">New York
+Times</a>][<a href="https://www.ft.com/content/8095afce-13eb-4b94-8ea7-1fd1a90bd99b">Financial
+Times</a>][<a href="https://www.wsj.com/science/environment/climate-change-policies-emissions-ai-research-a02b3f59">Wall
+Street
+Journal</a>][<a href="https://www.washingtonpost.com/politics/2024/08/22/climate-change-price-hike-policies-emissions/c6e64876-60b0-11ef-ae22-cef4d8785d67_story.html">Washington
+Post</a>][<a href="https://www.newscientist.com/article/2445014-most-climate-policies-do-little-to-prevent-climate-change/">NewScientist</a>][<a href="https://apnews.com/article/climate-change-price-hike-policies-emissions-1d211ff66f7ab768a69466b9af281c79">Associated
+Press</a>][<a href="https://amp.cnn.com/cnn/2024/08/22/climate/climate-policies-review-coal-cars">CNN</a>][<a href="https://www.cbc.ca/news/science/effective-climate-policies-1.7301998">CBC</a>][<a href="https://www.economist.com/science-and-technology/2024/10/02/why-its-so-hard-to-tell-which-climate-policies-actually-work">The
+Economist</a>][<a href="https://www.thetimes.com/business-money/economics/article/harris-and-trump-are-too-busy-scrapping-old-promises-to-mention-what-matters-5whl8ql5d">The
+Times</a>][<a href="https://www.elmundo.es/ciencia-y-salud/medio-ambiente/2024/08/22/66c75f4a21efa0c2478b456f.html">El
+Mundo</a>][<a href="https://www.lemonde.fr/planete/article/2024/09/08/climat-seule-la-combinaison-de-plusieurs-mesures-est-efficace-pour-faire-baisser-les-emissions-de-gaz-a-effet-de-serre_6307004_3244.html">Le
+Monde</a>][<a href="https://www.lexpress.fr/environnement/pour-reduire-les-emissions-de-co2-vaut-il-mieux-agiter-la-carotte-ou-le-baton-QLJGPZJP2VBKBK7E5X3OCZ4NTI/">L’Express</a>][<a href="https://www.radiofrance.fr/franceculture/podcasts/avec-sciences/climat-une-infime-partie-des-politiques-ont-un-reel-impact-4190342">France
+Culture</a>][<a href="https://science.orf.at/stories/3226410/">ORF</a>][<a href="https://www.derstandard.at/story/3000000233384/von-1500-massnahmen-fuer-weniger-emissionen-waren-nur-63-sehr-erfolgreich">Der
+Standard</a>][<a href="https://www.spiegel.de/wissenschaft/klimaneutralitaet-bis-2050-studie-zeigt-welche-massnahmen-besonders-wirksam-sind-a-6d162367-f1ff-427a-b4a0-34d7827dea4c">Spiegel</a>][<a href="https://www.zeit.de/wissen/umwelt/2024-08/klimaschtzpolitik-co2-ausstoss-massnahmen-nachhaltigkeit-mobilitaet">Zeit</a>][<a href="https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/klimapolitik-verbote-allein-bewirken-wenig-19938361.html">FAZ</a>][<a href="https://www.sueddeutsche.de/wissen/politik-klimaschutz-massnahmen-auswertung-lux.NDXE6KZQpvGs37KU23gUyx?reduced=true">SZ</a>][<a href="https://www.zdf.de/nachrichten/politik/deutschland/klimawandel-massnahmen-klimapolitik-100.html">zdf</a>][<a href="https://www.deutschlandfunk.de/gute-klimapolitik-welche-massnahmen-die-emissionen-wirklich-senken-dlf-7cea458e-100.html">Deutschlandfunk</a>][<a href="https://www.nature.com/articles/d41586-024-02717-7">Nature
+News</a>]</p>
+</details>
+
+<h3><em><strong>Energy Policy:</strong></em> Labour Market Impacts of Coal Mine Closures</h3>
+<p>We have recently published a paper in <em>Energy Policy</em> that considers the
+dynamics of the US labour market that are associated with coal mines
+closing. The paper finds that coal mine closures raise US county
+unemployment rates with spatial ripple effects and that Just Transition
+interventions should tailor to local conditions to alleviate impacts.</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0301421524003586">Mark, E., Rafaty, R. and Schwarz, M. (2024). <strong>Spatio-temporal dynamics
+of structural unemployment in declining coal mining regions and
+potentialities of the ‘just transition’</strong>. <em>Energy
+Policy</em>.</a></p>
+<p>You can find my full publication list
+<a href="/publications/">here</a>.</p>
+<h2>Software</h2>
+<p>I contribute to several open-source R packages that implement the methods I use in my research:</p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/gets/index.html">{gets}</a>: general-to-specific modelling, indicator saturation, structural breaks, and automated model selection.  </li>
+<li><a href="/getspanel/">{getspanel}</a>: extension of gets-type methods to panel data and causal-inference settings (including reverse-causal identification).  </li>
+<li><a href="/osem/">{osem}</a>: implementation of the Open-Source Empirical Macro model for joint macro–energy–emissions forecasting and scenario analysis.</li>
+</ul>
+<p>These packages are widely used by researchers and policy institutions and form the backbone of my empirical work.</p>
+<h2>Background and affiliations</h2>
+<p>During my DPhil studies at Oxford (Brasenose College), I worked closely with the Climate Econometrics project at Nuffield College. My doctoral research was supervised by Prof Sir David F. Hendry and Prof Cameron Hepburn and was supported by the Clarendon Fund.</p>
+<p>In addition to academic work, I have served as a Senior Climate Economist at Austria’s Ministry of Finance, contributing to macro-fiscal projections, green budgeting, and EU-level climate and energy policy processes (including the design of carbon pricing and the Carbon Border Adjustment Mechanism).</p>
+</div></article></div></section><section id="publications-view" hidden><h1 class="page__title">Publications</h1>
+
+<div class="publications-intro">
+  <p>Research in econometrics, empirical macroeconomics, and climate and energy policy. Use the filters to browse journal articles, working papers, and policy reports.</p>
+  <a class="scholar-link" href="https://scholar.google.com/citations?user=-j4hwZAAAAAJ">Google Scholar ↗</a>
+</div>
+
+<div class="publication-tools" aria-label="Filter publications" hidden>
+  <input class="publication-search" type="search" placeholder="Search by title, author, journal, or year" aria-label="Search publications" data-publication-search>
+  <button class="publication-filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+  <button class="publication-filter" type="button" data-filter="journal" aria-pressed="false">Journal articles</button>
+  <button class="publication-filter" type="button" data-filter="working-paper" aria-pressed="false">Working papers</button>
+  <button class="publication-filter" type="button" data-filter="report" aria-pressed="false">Reports</button>
+</div>
+
+<p class="publication-count" role="status" aria-live="polite" data-publication-count>17 publications</p>
+
+<div class="publication-list"><article class="publication-card" data-publication data-type="working-paper" data-search="an open-source empirical macroeconomic (osem) model for economic and emission forecasting moritz schwarz, j. kurle, f. pretis, a. martinez and g. harper international journal of forecasting — conditionally accepted —"><div><div class="publication-year">—</div><div class="publication-type">Conditionally accepted</div></div><div><h2><a href="https://moritzschwarz.org/publication/osem-model">An Open-Source Empirical Macroeconomic (OSEM) Model for Economic and Emission Forecasting</a></h2><p class="publication-authors"><strong>Moritz Schwarz</strong>, J. Kurle, F. Pretis, A. Martinez and G. Harper</p><p class="publication-venue">International Journal of Forecasting — conditionally accepted</p></div><div class="publication-actions"><a href="https://moritzschwarz.org/publication/osem-model">Status</a><a href="https://moritzschwarz.org/publication/osem-model">Details</a></div></article><article class="publication-card" data-publication data-type="working-paper" data-search="temporary warming, lasting losses: economic damages from climate overshoot may be irreversible within this century s. schöngart, moritz schwarz, j. schwaab, f. pretis, p. pfleiderer and c.-f. schleußner one earth — revise and resubmit (r&amp;r) —"><div><div class="publication-year">—</div><div class="publication-type">Revise and resubmit</div></div><div><h2><a href="https://moritzschwarz.org/publication/climate-overshoot">Temporary warming, lasting losses: Economic damages from climate overshoot may be irreversible within this century</a></h2><p class="publication-authors">S. Schöngart, <strong>Moritz Schwarz</strong>, J. Schwaab, F. Pretis, P. Pfleiderer and C.-F. Schleußner</p><p class="publication-venue">One Earth — revise and resubmit (R&amp;R)</p></div><div class="publication-actions"><a href="https://moritzschwarz.org/publication/climate-overshoot">Status</a><a href="https://moritzschwarz.org/publication/climate-overshoot">Details</a></div></article><article class="publication-card" data-publication data-type="working-paper" data-search="discovering what mattered: answering reverse causal questions by detecting unknown treatment assignment and timing as breaks in panel models felix pretis and moritz schwarz ssrn working paper 2026"><div><div class="publication-year">2026</div><div class="publication-type">Working paper</div></div><div><h2><a href="https://moritzschwarz.org/publication/Pretis-Schwarz-2022">Discovering What Mattered: Answering Reverse Causal Questions by Detecting Unknown Treatment Assignment and Timing as Breaks in Panel Models</a></h2><p class="publication-authors">Felix Pretis and <strong>Moritz Schwarz</strong></p><p class="publication-venue">SSRN working paper</p></div><div class="publication-actions"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4022745">Paper</a><a href="https://moritzschwarz.org/publication/Pretis-Schwarz-2022">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="spatial–temporal dynamics of structural unemployment in declining coal mining regions and potentialities of the ‘just transition’ ebba mark, ryan rafaty and moritz schwarz energy policy 2024"><div><div class="publication-year">2024</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Mark-et-al-2024">Spatial–temporal dynamics of structural unemployment in declining coal mining regions and potentialities of the ‘just transition’</a></h2><p class="publication-authors">Ebba Mark, Ryan Rafaty and <strong>Moritz Schwarz</strong></p><p class="publication-venue">Energy Policy</p></div><div class="publication-actions"><a href="https://www.sciencedirect.com/science/article/pii/S0301421524003586">Paper</a><a href="https://moritzschwarz.org/publication/Mark-et-al-2024">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="climate policies that achieved major emission reductions: global evidence from two decades annika stechemesser, nicolas koch, ebba mark, peter klösel, daniel nachtigall, felix pretis, nolan ritter, moritz schwarz, et al. science 2024"><div><div class="publication-year">2024</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Stechemesser-et-al-2024">Climate policies that achieved major emission reductions: Global evidence from two decades</a></h2><p class="publication-authors">Annika Stechemesser, Nicolas Koch, Ebba Mark, Peter Klösel, Daniel Nachtigall, Felix Pretis, Nolan Ritter, <strong>Moritz Schwarz</strong>, et al.</p><p class="publication-venue">Science</p></div><div class="publication-actions"><a href="https://www.science.org/doi/10.1126/science.adl6547">Paper</a><a href="https://moritzschwarz.org/publication/Stechemesser-et-al-2024">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="testing for coefficient distortion due to outliers with an application to the economic impacts of climate change xiyu jiao, felix pretis and moritz schwarz journal of econometrics 2024"><div><div class="publication-year">2024</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Jiao-Pretis-Schwarz-2024">Testing for coefficient distortion due to outliers with an application to the economic impacts of climate change</a></h2><p class="publication-authors">Xiyu Jiao, Felix Pretis and <strong>Moritz Schwarz</strong></p><p class="publication-venue">Journal of Econometrics</p></div><div class="publication-actions"><a href="https://www.sciencedirect.com/science/article/pii/S0304407623002634">Paper</a><a href="https://moritzschwarz.org/publication/Jiao-Pretis-Schwarz-2024">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="large weather and conflict effects on internal displacement in somalia with little evidence of feedback onto conflict lisa thalheimer, moritz schwarz and felix pretis global environmental change 2023"><div><div class="publication-year">2023</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Thalheimer-et-al-2023">Large weather and conflict effects on internal displacement in Somalia with little evidence of feedback onto conflict</a></h2><p class="publication-authors">Lisa Thalheimer, <strong>Moritz Schwarz</strong> and Felix Pretis</p><p class="publication-venue">Global Environmental Change</p></div><div class="publication-actions"><a href="https://www.sciencedirect.com/science/article/pii/S0959378023000079">Paper</a><a href="https://moritzschwarz.org/publication/Thalheimer-et-al-2023">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="attributing agnostically detected large reductions in road co2 emissions to policy mixes nicolas koch, linus naumann, felix pretis, nolan ritter and moritz schwarz nature energy 2022"><div><div class="publication-year">2022</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Koch-et-al-2022">Attributing agnostically detected large reductions in road CO2 emissions to policy mixes</a></h2><p class="publication-authors">Nicolas Koch, Linus Naumann, Felix Pretis, Nolan Ritter and <strong>Moritz Schwarz</strong></p><p class="publication-venue">Nature Energy</p></div><div class="publication-actions"><a href="https://www.nature.com/articles/s41560-022-01095-6">Paper</a><a href="https://moritzschwarz.org/publication/Koch-et-al-2022">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="whose jobs face transition risk in alberta? understanding sectoral employment precarity in an oil-rich canadian province antonina scheer, moritz schwarz, debbie hopkins and ben caldecott climate policy 2022"><div><div class="publication-year">2022</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Scheer-et-al-2022">Whose jobs face transition risk in Alberta? Understanding sectoral employment precarity in an oil-rich Canadian province</a></h2><p class="publication-authors">Antonina Scheer, <strong>Moritz Schwarz</strong>, Debbie Hopkins and Ben Caldecott</p><p class="publication-venue">Climate Policy</p></div><div class="publication-actions"><a href="https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2086843">Paper</a><a href="https://moritzschwarz.org/publication/Scheer-et-al-2022">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="decarbonization in state-owned power companies: lessons from a comparative analysis philippe benoit, alex clark, moritz schwarz and arjuna dibley journal of cleaner production 2022"><div><div class="publication-year">2022</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Benoit-Clark-Schwarz-Dibley-2022">Decarbonization in state-owned power companies: Lessons from a comparative analysis</a></h2><p class="publication-authors">Philippe Benoit, Alex Clark, <strong>Moritz Schwarz</strong> and Arjuna Dibley</p><p class="publication-venue">Journal of Cleaner Production</p></div><div class="publication-actions"><a href="https://doi.org/10.1016/j.jclepro.2022.131796">Paper</a><a href="https://moritzschwarz.org/publication/Benoit-Clark-Schwarz-Dibley-2022">Details</a></div></article><article class="publication-card" data-publication data-type="working-paper" data-search="an empirical climate damage function accounting for climate extremes and adaptation moritz schwarz and felix pretis ssrn working paper 2022"><div><div class="publication-year">2022</div><div class="publication-type">Working paper</div></div><div><h2><a href="https://moritzschwarz.org/publication/Schwarz-Pretis-2022">An Empirical Climate Damage Function Accounting for Climate Extremes and Adaptation</a></h2><p class="publication-authors"><strong>Moritz Schwarz</strong> and Felix Pretis</p><p class="publication-venue">SSRN working paper</p></div><div class="publication-actions"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4022690">Paper</a><a href="https://moritzschwarz.org/publication/Schwarz-Pretis-2022">Details</a></div></article><article class="publication-card" data-publication data-type="report" data-search="climate change: answers to common questions cameron hepburn and moritz schwarz pictet asset management 2020"><div><div class="publication-year">2020</div><div class="publication-type">Report</div></div><div><h2><a href="https://moritzschwarz.org/publication/Hepburn-and-Schwarz-2020">Climate change: Answers to common questions</a></h2><p class="publication-authors">Cameron Hepburn and <strong>Moritz Schwarz</strong></p><p class="publication-venue">Pictet Asset Management</p></div><div class="publication-actions"><a href="/files/Hepburn_Schwarz_2020.pdf">Paper</a><a href="https://moritzschwarz.org/publication/Hepburn-and-Schwarz-2020">Details</a></div></article><article class="publication-card" data-publication data-type="report" data-search="climate change and emerging markets after covid-19 françois cohen, matthew ives, sugandha srivastav, moritz schwarz, yao lu, penny mealy, pedro bento maffei de souza, liam jackson and cameron hepburn pictet asset management 2020"><div><div class="publication-year">2020</div><div class="publication-type">Report</div></div><div><h2><a href="https://moritzschwarz.org/publication/Cohen-et-al-2020-Pictet">Climate change and emerging markets after Covid-19</a></h2><p class="publication-authors">François Cohen, Matthew Ives, Sugandha Srivastav, <strong>Moritz Schwarz</strong>, Yao Lu, Penny Mealy, Pedro Bento Maffei de Souza, Liam Jackson and Cameron Hepburn</p><p class="publication-venue">Pictet Asset Management</p></div><div class="publication-actions"><a href="/files/Pictet-Report-2020.pdf">Paper</a><a href="https://moritzschwarz.org/publication/Cohen-et-al-2020-Pictet">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="the challenge of using epidemiological case count data: the example of confirmed covid-19 cases and the weather françois cohen, moritz schwarz, siyi li, yao lu and atul jani environmental and resource economics 2020"><div><div class="publication-year">2020</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Cohen-et-al-2020">The Challenge of Using Epidemiological Case Count Data: The Example of Confirmed COVID-19 Cases and the Weather</a></h2><p class="publication-authors">François Cohen, <strong>Moritz Schwarz</strong>, Siyi Li, Yao Lu and Atul Jani</p><p class="publication-venue">Environmental and Resource Economics</p></div><div class="publication-actions"><a href="https://link.springer.com/article/10.1007/s10640-020-00493-2">Paper</a><a href="https://moritzschwarz.org/publication/Cohen-et-al-2020">Details</a></div></article><article class="publication-card" data-publication data-type="report" data-search="antworten auf zentrale fragen zur einführung von co2-preisen linus mattauch, felix creutzig, nils aus dem moore, max franks, franziska funke, michael jakob, lutz sager, moritz schwarz, et al. scientists for future 2019"><div><div class="publication-year">2019</div><div class="publication-type">Discussion paper</div></div><div><h2><a href="https://moritzschwarz.org/publication/Mattauch-et-al-2019">Antworten auf zentrale Fragen zur Einführung von CO2-Preisen</a></h2><p class="publication-authors">Linus Mattauch, Felix Creutzig, Nils aus dem Moore, Max Franks, Franziska Funke, Michael Jakob, Lutz Sager, <strong>Moritz Schwarz</strong>, et al.</p><p class="publication-venue">Scientists for Future</p></div><div class="publication-actions"><a href="https://doi.org/10.5281/zenodo.3371150">Paper</a><a href="https://moritzschwarz.org/publication/Mattauch-et-al-2019">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="uncertain impacts on economic growth when stabilizing global temperatures at 1.5°c or 2°c warming felix pretis, moritz schwarz, kuishuang tang, karsten haustein and myles r. allen philosophical transactions of the royal society a 2018"><div><div class="publication-year">2018</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Pretis-et-al-2018">Uncertain impacts on economic growth when stabilizing global temperatures at 1.5°C or 2°C warming</a></h2><p class="publication-authors">Felix Pretis, <strong>Moritz Schwarz</strong>, Kuishuang Tang, Karsten Haustein and Myles R. Allen</p><p class="publication-venue">Philosophical Transactions of the Royal Society A</p></div><div class="publication-actions"><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0460">Paper</a><a href="https://moritzschwarz.org/publication/Pretis-et-al-2018">Details</a></div></article><article class="publication-card" data-publication data-type="journal" data-search="wirtschaftswachstum und klimawandel: chancen und herausforderungen auf dem weg zur klimafreundlichen gesellschaft linus mattauch, martin roesti, moritz schwarz and jan siegmeier wirtschaftspolitische blätter 2017"><div><div class="publication-year">2017</div><div class="publication-type">Journal article</div></div><div><h2><a href="https://moritzschwarz.org/publication/Mattauch-et-al-2017">Wirtschaftswachstum und Klimawandel: Chancen und Herausforderungen auf dem Weg zur klimafreundlichen Gesellschaft</a></h2><p class="publication-authors">Linus Mattauch, Martin Roesti, <strong>Moritz Schwarz</strong> and Jan Siegmeier</p><p class="publication-venue">Wirtschaftspolitische Blätter</p></div><div class="publication-actions"><a href="https://www.wko.at/site/WirtschaftspolitischeBlaetter/mattauch-et-al.pdf">Paper</a><a href="https://moritzschwarz.org/publication/Mattauch-et-al-2017">Details</a></div></article></div><p class="publication-empty" data-publication-empty hidden>No publications match this search.</p></section><section id="teaching-view" hidden><h1 class="page__title">Teaching</h1>
+
+<div class="teaching-intro">
+<p>I teach environmental economics, econometrics and statistics, from introductory empirical work to doctoral methods workshops. My teaching combines economic questions, explicit assumptions and practical analysis in R. Students work through the reasoning behind a method, implement it, and assess what the results can support.</p>
+<p>My experience includes MSc seminars and lectures at Oxford, independently designed PhD workshops at TU Berlin, undergraduate and master’s teaching contributions, and training in applied data analysis for researchers and policy practitioners.</p>
+</div>
+
+<h2>Doctoral methods workshops · TU Berlin</h2>
+<section class="teaching-course">
+<h3>Causal Inference: Foundations, Methods and Frontiers</h3>
+<p class="teaching-meta">PhD level · Two-day workshop · Independently designed and taught</p>
+<p>The workshop starts from potential outcomes and identification, then examines instrumental variables, difference-in-differences, regression discontinuity and synthetic controls. Discussion of treatment heterogeneity, staggered adoption and synthetic difference-in-differences connects established designs to more recent methods. Worked examples and R exercises focus on choosing a credible comparison, making assumptions explicit and interpreting estimates.</p>
+<p><a href="https://moritzschwarz.org/teaching/causal-inference/">Course overview and learning outcomes →</a></p>
+</section>
+<section class="teaching-course">
+<h3>Applied Time-Series Econometrics</h3>
+<p class="teaching-meta">PhD level · Two-day workshop · Independently designed and taught</p>
+<p>The course develops empirical models of economic dynamics, from autoregressive behaviour and distributed lags to non-stationarity, cointegration and equilibrium correction. It then considers structural change, vector autoregressions and the identification of structural shocks. Practical work in R emphasises model adequacy, sensitivity and the distinction between statistical relationships and causal interpretation.</p>
+<p><a href="https://moritzschwarz.org/teaching/time-series/">Course overview and learning outcomes →</a></p>
+</section>
+
+<h2>Environmental economics · Oxford</h2>
+<p>At Oxford, I designed and led MSc Environmental Economics seminar sessions as a teaching assistant, and delivered two lectures in <em>New Environmental Economic Thinking</em>. My teaching links environmental-policy questions to the empirical and modelling tools used to investigate them.</p>
+
+<h2>Applied R and data analysis</h2>
+<p>My Nottingham teaching materials cover an applied R workflow: importing and inspecting data, transforming and combining datasets with the tidyverse, visualising results with ggplot2, and estimating and presenting regression models. Exercises connect individual commands to a reproducible analysis, with attention to readable code and checking intermediate results.</p>
+<p>Training materials for Austria’s Ministry of Finance introduce R and RStudio, data manipulation and project-based workflows through budget-data examples. The focus is on helping participants read, run and adapt an analysis, and understand how a script records the steps behind a result.</p>
+
+<h2>Supervision and prospective students</h2>
+<p>I have co-supervised undergraduate and master’s dissertations at TU Berlin and Oxford, and contributed to the supervision of empirical chapters by doctoral researchers. I help students develop a feasible question, choose an empirical design, work through the analysis and communicate its limitations.</p>
+<p><strong>Prospective students are welcome to <a href="mailto:moritz.schwarz@scmo.eu">email me</a></strong> about research interests in econometrics, environmental-policy evaluation, empirical macroeconomics and forecasting. A brief description of your interests, background and proposed question is helpful.</p>
+
+<h2>Selected teaching resources</h2>
+<ul>
+<li><a href="https://moritzschwarz.org/teaching/economic_models">Tools and resources for economic models of climate change</a> — climate-impact analysis, scenarios and economic modelling.</li>
+<li><a href="https://moritzschwarz.org/QEH_R_Material">R material for Oxford’s Quantitative Methods course</a> — accompanying R material for the Stata-based course.</li>
+</ul>
+</section></main><footer class="page__footer">© Moritz P. Schwarz · AcademicPages / Jekyll</footer><script>(function () {
+  'use strict';
+  var search = document.querySelector('[data-publication-search]');
+  if (!search) return;
+  var cards = Array.prototype.slice.call(document.querySelectorAll('[data-publication]'));
+  var filters = Array.prototype.slice.call(document.querySelectorAll('[data-filter]'));
+  var empty = document.querySelector('[data-publication-empty]');
+  var count = document.querySelector('[data-publication-count]');
+  var activeType = 'all';
+  function normalise(value) {
+    return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[–—-]/g, ' ');
+  }
+  function update() {
+    var terms = normalise(search.value).trim().split(/\s+/).filter(Boolean);
+    var visible = 0;
+    cards.forEach(function (card) {
+      var text = normalise(card.getAttribute('data-search'));
+      var show = (activeType === 'all' || card.getAttribute('data-type') === activeType) && terms.every(function (term) { return text.indexOf(term) !== -1; });
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    empty.hidden = visible !== 0;
+    count.textContent = visible + ' of ' + cards.length + ' publications';
+  }
+  filters.forEach(function (button) {
+    button.addEventListener('click', function () {
+      activeType = button.getAttribute('data-filter');
+      filters.forEach(function (item) {
+        item.classList.toggle('is-active', item === button);
+        item.setAttribute('aria-pressed', String(item === button));
+      });
+      update();
+    });
+  });
+  search.addEventListener('input', update);
+  document.querySelector('.publication-tools').hidden = false;
+  update();
+}());
+
+function route(){var pub=location.hash==='#publications';var teach=location.hash==='#teaching';document.getElementById('teaching-view').hidden=!teach;document.getElementById('home-view').hidden=pub||teach;document.getElementById('publications-view').hidden=!pub;document.body.className=pub?'publications-page':teach?'teaching-page':'home-page';window.scrollTo(0,0)}window.addEventListener('hashchange',route);route();document.querySelectorAll('a[href="/publications/"]').forEach(a=>a.href='#publications');document.querySelectorAll('a[href^="/files/"]').forEach(a=>a.href='https://moritzschwarz.org'+a.getAttribute('href'));</script></body></html>

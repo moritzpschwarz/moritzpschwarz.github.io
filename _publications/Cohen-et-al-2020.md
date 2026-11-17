@@ -1,13 +1,11 @@
 ---
+layout: publication
 title: 'The Challenge of Using Epidemiological Case Count Data: The Example of Confirmed COVID-19 Cases and the Weather'
 collection: publications
 permalink: /publication/Cohen-et-al-2020
 date: 2020-07-23
 venue: 'Environmental and Resource Economics'
 ---
-[Link to Paper](https://link.springer.com/article/10.1007/s10640-020-00493-2#Sec43)
-
-
 
 [Link to Paper](https://link.springer.com/article/10.1007/s10640-020-00493-2#Sec43)
 
@@ -31,5 +29,6 @@ Selected Press Coverage:
 - [Press Association: Still not known if warmer weather slows Covid-19 spread - study](https://www.eveningexpress.co.uk/news/uk/still-not-known-if-warmer-weather-slows-covid-19-spread-study/). article distributed in around 250 outlets such as Yahoo News, Sunday Post, News and Star, Aberdeen Evening Express, Harrow Times, This is Local London, thisismoney.co.uk, South Wales Argus, Bournemouth Echo, The Bolton News, South Wales Guardian, Western Telegraph, North Wales Pioneer, Daily Echo, North Wales Chronicle, Shropshire Star, etc.
 - BBC South Evening News
 - Many Others
+
 
 

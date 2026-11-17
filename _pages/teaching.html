@@ -2,11 +2,43 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+classes:
+  - teaching-page
 ---
 
-{% include base_path %}
+<div class="teaching-intro">
+<p>I teach environmental economics, econometrics and statistics, from introductory empirical work to doctoral methods workshops. My teaching combines economic questions, explicit assumptions and practical analysis in R. Students work through the reasoning behind a method, implement it, and assess what the results can support.</p>
+<p>My experience includes MSc seminars and lectures at Oxford, independently designed PhD workshops at TU Berlin, undergraduate and master’s teaching contributions, and training in applied data analysis for researchers and policy practitioners.</p>
+</div>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Doctoral methods workshops · TU Berlin</h2>
+<section class="teaching-course">
+<h3>Causal Inference: Foundations, Methods and Frontiers</h3>
+<p class="teaching-meta">PhD level · Two-day workshop · Independently designed and taught</p>
+<p>The workshop starts from potential outcomes and identification, then examines instrumental variables, difference-in-differences, regression discontinuity and synthetic controls. Discussion of treatment heterogeneity, staggered adoption and synthetic difference-in-differences connects established designs to more recent methods. Worked examples and R exercises focus on choosing a credible comparison, making assumptions explicit and interpreting estimates.</p>
+<p><a href="{{ '/teaching/causal-inference/' | relative_url }}">Course overview and learning outcomes →</a></p>
+</section>
+<section class="teaching-course">
+<h3>Applied Time-Series Econometrics</h3>
+<p class="teaching-meta">PhD level · Two-day workshop · Independently designed and taught</p>
+<p>The course develops empirical models of economic dynamics, from autoregressive behaviour and distributed lags to non-stationarity, cointegration and equilibrium correction. It then considers structural change, vector autoregressions and the identification of structural shocks. Practical work in R emphasises model adequacy, sensitivity and the distinction between statistical relationships and causal interpretation.</p>
+<p><a href="{{ '/teaching/time-series/' | relative_url }}">Course overview and learning outcomes →</a></p>
+</section>
+
+<h2>Environmental economics · Oxford</h2>
+<p>At Oxford, I designed and led MSc Environmental Economics seminar sessions as a teaching assistant, and delivered two lectures in <em>New Environmental Economic Thinking</em>. My teaching links environmental-policy questions to the empirical and modelling tools used to investigate them.</p>
+
+<h2>Applied R and data analysis</h2>
+<p>My Nottingham teaching materials cover an applied R workflow: importing and inspecting data, transforming and combining datasets with the tidyverse, visualising results with ggplot2, and estimating and presenting regression models. Exercises connect individual commands to a reproducible analysis, with attention to readable code and checking intermediate results.</p>
+<p>Training materials for Austria’s Ministry of Finance introduce R and RStudio, data manipulation and project-based workflows through budget-data examples. The focus is on helping participants read, run and adapt an analysis, and understand how a script records the steps behind a result.</p>
+
+<h2>Supervision and prospective students</h2>
+<p>I have co-supervised undergraduate and master’s dissertations at TU Berlin and Oxford, and contributed to the supervision of empirical chapters by doctoral researchers. I help students develop a feasible question, choose an empirical design, work through the analysis and communicate its limitations.</p>
+<p><strong>Prospective students are welcome to <a href="mailto:moritz.schwarz@scmo.eu">email me</a></strong> about research interests in econometrics, environmental-policy evaluation, empirical macroeconomics and forecasting. A brief description of your interests, background and proposed question is helpful.</p>
+
+<h2>Selected teaching resources</h2>
+<ul>
+<li><a href="{{ '/teaching/economic_models' | relative_url }}">Tools and resources for economic models of climate change</a> — climate-impact analysis, scenarios and economic modelling.</li>
+<li><a href="{{ '/QEH_R_Material' | relative_url }}">R material for Oxford’s Quantitative Methods course</a> — accompanying R material for the Stata-based course.</li>
+</ul>

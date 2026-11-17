@@ -1,0 +1,151 @@
+- title: An Open-Source Empirical Macroeconomic (OSEM) Model for Economic and Emission Forecasting
+  year: —
+  type: working-paper
+  type_label: Conditionally accepted
+  venue: International Journal of Forecasting — conditionally accepted
+  authors: Moritz Schwarz, J. Kurle, F. Pretis, A. Martinez and G. Harper
+  detail_url: /publication/osem-model
+  paper_url: ''
+- title: 'Temporary warming, lasting losses: Economic damages from climate overshoot may be irreversible within this century'
+  year: —
+  type: working-paper
+  type_label: Revise and resubmit
+  venue: One Earth — revise and resubmit (R&R)
+  authors: S. Schöngart, Moritz Schwarz, J. Schwaab, F. Pretis, P. Pfleiderer and C.-F. Schleußner
+  detail_url: /publication/climate-overshoot
+  paper_url: ''
+
+- title: "Discovering What Mattered: Answering Reverse Causal Questions by Detecting Unknown Treatment Assignment and Timing as Breaks in Panel Models"
+  year: 2026
+  type: working-paper
+  type_label: Working paper
+  venue: SSRN working paper
+  authors: "Felix Pretis and Moritz Schwarz"
+  detail_url: /publication/Pretis-Schwarz-2022
+  paper_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4022745
+
+- title: "Spatial–temporal dynamics of structural unemployment in declining coal mining regions and potentialities of the ‘just transition’"
+  year: 2024
+  type: journal
+  type_label: Journal article
+  venue: Energy Policy
+  authors: "Ebba Mark, Ryan Rafaty and Moritz Schwarz"
+  detail_url: /publication/Mark-et-al-2024
+  paper_url: https://www.sciencedirect.com/science/article/pii/S0301421524003586
+
+- title: "Climate policies that achieved major emission reductions: Global evidence from two decades"
+  year: 2024
+  type: journal
+  type_label: Journal article
+  venue: Science
+  authors: "Annika Stechemesser, Nicolas Koch, Ebba Mark, Peter Klösel, Daniel Nachtigall, Felix Pretis, Nolan Ritter, Moritz Schwarz, et al."
+  detail_url: /publication/Stechemesser-et-al-2024
+  paper_url: https://www.science.org/doi/10.1126/science.adl6547
+
+- title: "Testing for coefficient distortion due to outliers with an application to the economic impacts of climate change"
+  year: 2024
+  type: journal
+  type_label: Journal article
+  venue: Journal of Econometrics
+  authors: "Xiyu Jiao, Felix Pretis and Moritz Schwarz"
+  detail_url: /publication/Jiao-Pretis-Schwarz-2024
+  paper_url: https://www.sciencedirect.com/science/article/pii/S0304407623002634
+
+- title: "Large weather and conflict effects on internal displacement in Somalia with little evidence of feedback onto conflict"
+  year: 2023
+  type: journal
+  type_label: Journal article
+  venue: Global Environmental Change
+  authors: "Lisa Thalheimer, Moritz Schwarz and Felix Pretis"
+  detail_url: /publication/Thalheimer-et-al-2023
+  paper_url: https://www.sciencedirect.com/science/article/pii/S0959378023000079
+
+- title: "Attributing agnostically detected large reductions in road CO2 emissions to policy mixes"
+  year: 2022
+  type: journal
+  type_label: Journal article
+  venue: Nature Energy
+  authors: "Nicolas Koch, Linus Naumann, Felix Pretis, Nolan Ritter and Moritz Schwarz"
+  detail_url: /publication/Koch-et-al-2022
+  paper_url: https://www.nature.com/articles/s41560-022-01095-6
+
+- title: "Whose jobs face transition risk in Alberta? Understanding sectoral employment precarity in an oil-rich Canadian province"
+  year: 2022
+  type: journal
+  type_label: Journal article
+  venue: Climate Policy
+  authors: "Antonina Scheer, Moritz Schwarz, Debbie Hopkins and Ben Caldecott"
+  detail_url: /publication/Scheer-et-al-2022
+  paper_url: https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2086843
+
+- title: "Decarbonization in state-owned power companies: Lessons from a comparative analysis"
+  year: 2022
+  type: journal
+  type_label: Journal article
+  venue: Journal of Cleaner Production
+  authors: "Philippe Benoit, Alex Clark, Moritz Schwarz and Arjuna Dibley"
+  detail_url: /publication/Benoit-Clark-Schwarz-Dibley-2022
+  paper_url: https://doi.org/10.1016/j.jclepro.2022.131796
+
+- title: "An Empirical Climate Damage Function Accounting for Climate Extremes and Adaptation"
+  year: 2022
+  type: working-paper
+  type_label: Working paper
+  venue: SSRN working paper
+  authors: "Moritz Schwarz and Felix Pretis"
+  detail_url: /publication/Schwarz-Pretis-2022
+  paper_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4022690
+
+- title: "Climate change: Answers to common questions"
+  year: 2020
+  type: report
+  type_label: Report
+  venue: Pictet Asset Management
+  authors: "Cameron Hepburn and Moritz Schwarz"
+  detail_url: /publication/Hepburn-and-Schwarz-2020
+  paper_url: /files/Hepburn_Schwarz_2020.pdf
+
+- title: "Climate change and emerging markets after Covid-19"
+  year: 2020
+  type: report
+  type_label: Report
+  venue: Pictet Asset Management
+  authors: "François Cohen, Matthew Ives, Sugandha Srivastav, Moritz Schwarz, Yao Lu, Penny Mealy, Pedro Bento Maffei de Souza, Liam Jackson and Cameron Hepburn"
+  detail_url: /publication/Cohen-et-al-2020-Pictet
+  paper_url: /files/Pictet-Report-2020.pdf
+
+- title: "The Challenge of Using Epidemiological Case Count Data: The Example of Confirmed COVID-19 Cases and the Weather"
+  year: 2020
+  type: journal
+  type_label: Journal article
+  venue: Environmental and Resource Economics
+  authors: "François Cohen, Moritz Schwarz, Siyi Li, Yao Lu and Atul Jani"
+  detail_url: /publication/Cohen-et-al-2020
+  paper_url: https://link.springer.com/article/10.1007/s10640-020-00493-2
+
+- title: "Antworten auf zentrale Fragen zur Einführung von CO2-Preisen"
+  year: 2019
+  type: report
+  type_label: Discussion paper
+  venue: Scientists for Future
+  authors: "Linus Mattauch, Felix Creutzig, Nils aus dem Moore, Max Franks, Franziska Funke, Michael Jakob, Lutz Sager, Moritz Schwarz, et al."
+  detail_url: /publication/Mattauch-et-al-2019
+  paper_url: https://doi.org/10.5281/zenodo.3371150
+
+- title: "Uncertain impacts on economic growth when stabilizing global temperatures at 1.5°C or 2°C warming"
+  year: 2018
+  type: journal
+  type_label: Journal article
+  venue: Philosophical Transactions of the Royal Society A
+  authors: "Felix Pretis, Moritz Schwarz, Kuishuang Tang, Karsten Haustein and Myles R. Allen"
+  detail_url: /publication/Pretis-et-al-2018
+  paper_url: https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0460
+
+- title: "Wirtschaftswachstum und Klimawandel: Chancen und Herausforderungen auf dem Weg zur klimafreundlichen Gesellschaft"
+  year: 2017
+  type: journal
+  type_label: Journal article
+  venue: Wirtschaftspolitische Blätter
+  authors: "Linus Mattauch, Martin Roesti, Moritz Schwarz and Jan Siegmeier"
+  detail_url: /publication/Mattauch-et-al-2017
+  paper_url: https://www.wko.at/site/WirtschaftspolitischeBlaetter/mattauch-et-al.pdf

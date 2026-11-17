@@ -2,7 +2,9 @@
 permalink: /
 title: ""
 excerpt: "About me"
-author_profile: true
+author_profile: false
+classes:
+  - home-page
 redirect_from: 
   - /about/
   - /about.html
@@ -12,15 +14,25 @@ editor_options:
 ---
 
 
-<!-- Front page content for academic job market -->
+<section class="home-hero">
+  <p class="home-hero__eyebrow">Applied economics · Econometrics · Climate policy</p>
+  <h1>Moritz P. Schwarz</h1>
+  <p class="home-hero__lead">I am an applied economist and econometrician working on causal identification, empirical macro-modelling, and environmental and climate policy.</p>
+  <div class="hero-actions">
+    <a class="hero-button" href="{{ "/publications/" | relative_url }}">Explore publications</a>
+    <a class="hero-button hero-button--secondary" href="{{ "/files/JMP.pdf" | relative_url }}">Job market paper</a>
+    <a class="hero-button hero-button--secondary" href="{{ "/files/CV.pdf" | relative_url }}">Download CV</a>
+  </div>
+</section>
 
-# Welcome to my personal website
+<div class="home-intro" markdown="1">
 
-I am an applied economist and econometrician with a focus on **causal identification, empirical macro-modelling, and environmental and climate policy**. I currently hold an [Einstein International Postdoctoral Fellowship](https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-international-postdoctoral-fellows/moritz-p-schwarz) financed by the Einstein Foundation in Berlin.
+I am an Einstein International Postdoctoral Fellow at **TU Berlin and the Potsdam Institute for Climate Impact Research**, and a **Senior Climate Economist at Austria’s Ministry of Finance**. **I am on the 2026/2027 job market**.
 
-[You can find my Job Market Paper here](https://moritzschwarz.org/files/JMP.pdf) and you can find my [most recent CV here.](https://moritzschwarz.org/files/CV.pdf)
 
 I obtained my DPhil (PhD) in Economics from the University of Oxford working with the [Climate Econometrics](https://www.climateeconometrics.org/) group at Nuffield College, and I am based at the Faculty of Economics and Management at TU Berlin and at the Potsdam Institute for Climate Impact Research (PIK). I remain affiliated with the [Institute for New Economic Thinking at the Oxford Martin School](https://www.inet.ox.ac.uk/) and the [Smith School of Enterprise and the Environment](https://www.smithschool.ox.ac.uk/).
+
+</div>
 
 ## Research
 
@@ -30,36 +42,33 @@ My research combines **econometric method development** with **empirical macroec
    I develop tools to detect unknown interventions and regime shifts as structural breaks in panel and time-series models, linking break detection to modern causal-inference frameworks. These methods underpin applications such as identifying which national climate and energy policies have actually reduced emissions (e.g. work published in *Science* and *Nature Energy*) and improving robustness in climate-impact estimation (e.g. *Journal of Econometrics*).
 
 2. **Empirical macro-modelling and forecasting under structural change**  
-   I lead the development of the **Open-Source Empirical Macro (OSEM)** model, a multi-equation empirical framework that jointly forecasts macroeconomic, energy, and environmental variables. OSEM combines automatic model selection, break detection, and error-correction techniques and is used by Austria’s Ministry of Finance and adapted for scenario analysis with the UK Department for Energy Security and Net Zero. This work complements structural/DSGE and CGE-type models and speaks to macro-fiscal, financial-stability, and transition questions.
+   I lead the development of the **Open-Source Empirical Macro (OSEM)** model, a multi-equation empirical framework that jointly forecasts macroeconomic, energy, and environmental variables. OSEM combines automatic model selection, break detection, and error-correction techniques and is used by Austria’s Ministry of Finance and the UK Department for Energy Security and Net Zero. This work complements structural/DSGE and CGE-type models and speaks to macro-fiscal, financial-stability, and transition questions.
 
 3. **Applications in climate, energy, and just transitions**  
    I apply these methods to quantify the real-world impacts of climate change and climate policy, including the effectiveness of national policy packages, the macroeconomic consequences of warming and extremes, and the labour-market and distributional dimensions of the clean energy transition. This includes work on just transition, state-owned enterprises, and the interaction between fiscal policy and climate objectives.
 
 Across these strands, a common theme is **empirical transparency in macroeconomic and environmental policy analysis**: using open, reproducible tools to understand which policies work, how shocks propagate through the economy, and how to design more resilient macroeconomic and climate strategies.
 
-## Software
 
-I contribute to several open-source R packages that implement the methods I use in my research:
+## Research highlights
 
-- [{gets}](https://cran.r-project.org/web/packages/gets/index.html): general-to-specific modelling, indicator saturation, structural breaks, and automated model selection.  
-- [{getspanel}](getspanel): extension of gets-type methods to panel data and causal-inference settings (including reverse-causal identification).  
-- [{osem}](osem): implementation of the Open-Source Empirical Macro model for joint macro–energy–emissions forecasting and scenario analysis.
+### Discovering What Mattered: detecting unknown treatment
 
-These packages are widely used by researchers and policy institutions and form the backbone of my empirical work.
+My job-market paper with Felix Pretis develops the econometric foundations for investigating changes whose timing and assignment are not known in advance. We connect structural breaks to heterogeneous treatment effects in fixed-effects panel models, linking treatment detection to conventional policy-evaluation designs. Applications revisit Sweden’s carbon tax and the economic effects of ETA terrorism. Detecting a break identifies a candidate intervention; attributing it to a particular cause still requires substantive investigation.
 
-## Background and affiliations
+The paper is **under review at the Journal of the American Statistical Association**. [Paper and abstract](/publication/Pretis-Schwarz-2022).
 
-During my DPhil studies at Oxford (Brasenose College), I worked closely with the Climate Econometrics project at Nuffield College. My doctoral research was supervised by Prof Sir David F. Hendry and Prof Cameron Hepburn and was supported by the Clarendon Fund.
+### OSEM: empirical macroeconomic and emissions forecasting
 
-In addition to academic work, I have served as a Senior Climate Economist at Austria’s Ministry of Finance, contributing to macro-fiscal projections, green budgeting, and EU-level climate and energy policy processes (including the design of carbon pricing and the Carbon Border Adjustment Mechanism).
+I lead development of the **Open-Source Empirical Macroeconomic (OSEM)** framework, which jointly models economic activity, energy use and emissions. OSEM retains accounting relationships while estimating economic dynamics from observed data. Our paper presents the framework and evaluates its real-time out-of-sample forecasting performance. The framework is used by Austria’s Ministry of Finance and the UK Department for Energy Security and Net Zero, with these applications informing its continuing development.
 
+Our paper is **conditionally accepted at the International Journal of Forecasting**. [Publication details](/publication/osem-model) · [OSEM documentation](/osem/).
 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
+### Temporary warming, lasting losses: climate overshoot
 
+In joint work with S. Schöngart, J. Schwaab, F. Pretis, P. Pfleiderer and C.-F. Schleußner, we examine the economic consequences of temporarily exceeding a temperature target. The paper investigates whether the economic damages from climate overshoot may persist within this century, even when warming subsequently declines. It connects my work on empirical climate impacts with questions about the economic implications of different temperature pathways.
 
-
-
-## Newest Research: 
+The paper is at **revise and resubmit at One Earth**. [Publication details](/publication/climate-overshoot).
 
 ### ***Science:*** Identifying successful climate policies
 
@@ -89,7 +98,7 @@ policy interventions reduced emissions between 0.6 and 1.8 billion
 tonnes of CO2.
 
 For more detail on the identified policies, check out our [Climate
-Policy Exporer](http://climate-policy-explorer.pik-potsdam.de/) where
+Policy Explorer](http://climate-policy-explorer.pik-potsdam.de/) where
 you can dive deeper into our results and findings.
 
 [Stechemesser A., Koch, N., Mark E., Klösel P., Nachtigall, D., Pretis,
@@ -100,7 +109,10 @@ achieved major emission reductions: Global evidence from two decades.**
 [[Data and code](https://zenodo.org/records/12773811)][[Interactive web
 dashboard](http://climate-policy-explorer.pik-potsdam.de/)]
 
-**Media**: [[New York
+<details markdown="1">
+<summary>Selected media coverage</summary>
+
+ [[New York
 Times](https://www.nytimes.com/2024/08/22/climate/climate-policies.html)][[Financial
 Times](https://www.ft.com/content/8095afce-13eb-4b94-8ea7-1fd1a90bd99b)][[Wall
 Street
@@ -114,6 +126,9 @@ Monde](https://www.lemonde.fr/planete/article/2024/09/08/climat-seule-la-combina
 Culture](https://www.radiofrance.fr/franceculture/podcasts/avec-sciences/climat-une-infime-partie-des-politiques-ont-un-reel-impact-4190342)][[ORF](https://science.orf.at/stories/3226410/)][[Der
 Standard](https://www.derstandard.at/story/3000000233384/von-1500-massnahmen-fuer-weniger-emissionen-waren-nur-63-sehr-erfolgreich)][[Spiegel](https://www.spiegel.de/wissenschaft/klimaneutralitaet-bis-2050-studie-zeigt-welche-massnahmen-besonders-wirksam-sind-a-6d162367-f1ff-427a-b4a0-34d7827dea4c)][[Zeit](https://www.zeit.de/wissen/umwelt/2024-08/klimaschtzpolitik-co2-ausstoss-massnahmen-nachhaltigkeit-mobilitaet)][[FAZ](https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/klimapolitik-verbote-allein-bewirken-wenig-19938361.html)][[SZ](https://www.sueddeutsche.de/wissen/politik-klimaschutz-massnahmen-auswertung-lux.NDXE6KZQpvGs37KU23gUyx?reduced=true)][[zdf](https://www.zdf.de/nachrichten/politik/deutschland/klimawandel-massnahmen-klimapolitik-100.html)][[Deutschlandfunk](https://www.deutschlandfunk.de/gute-klimapolitik-welche-massnahmen-die-emissionen-wirklich-senken-dlf-7cea458e-100.html)][[Nature
 News](https://www.nature.com/articles/d41586-024-02717-7)]
+
+
+</details>
 
 ### ***Energy Policy:*** Labour Market Impacts of Coal Mine Closures
 
@@ -129,38 +144,31 @@ potentialities of the ‘just transition’**. *Energy
 Policy*.](https://www.sciencedirect.com/science/article/pii/S0301421524003586)
 
 You can find my full publication list
-[here](https://moritzpschwarz.github.io/publications/).
+[here](/publications/).
 
 
-<!-- My research, under the supervision of Prof Cameron Hepburn and Prof Sir David Hendry, focuses on the macro-econometric estimation of climate impacts. Further research interests include spatial econometrics and remote-sensing.
-I holds a degree from the London School of Economics and Political Science and an MSc from Oxford’s Environmental Change Institute. Before continuing his studies at Oxford, he worked for the Austrian government and coordinated the activities in international environmental negotiations associated with Austria’s Presidency of the Council of the EU in 2018 (with a focus on climate, biodiversity, whaling and governance negotiations).
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
--->
+
+## Software
+
+I contribute to several open-source R packages that implement the methods I use in my research:
+
+- [{gets}](https://cran.r-project.org/web/packages/gets/index.html): general-to-specific modelling, indicator saturation, structural breaks, and automated model selection.  
+- [{getspanel}](/getspanel/): extension of gets-type methods to panel data and causal-inference settings (including reverse-causal identification).  
+- [{osem}](/osem/): implementation of the Open-Source Empirical Macro model for joint macro–energy–emissions forecasting and scenario analysis.
+
+These packages are widely used by researchers and policy institutions and form the backbone of my empirical work.
+
+## Background and affiliations
+
+During my DPhil studies at Oxford (Brasenose College), I worked closely with the Climate Econometrics project at Nuffield College. My doctoral research was supervised by Prof Sir David F. Hendry and Prof Cameron Hepburn and was supported by the Clarendon Fund.
+
+In addition to academic work, I have served as a Senior Climate Economist at Austria’s Ministry of Finance, contributing to macro-fiscal projections, green budgeting, and EU-level climate and energy policy processes (including the design of carbon pricing and the Carbon Border Adjustment Mechanism).
+
+
+
+
+
+
+
