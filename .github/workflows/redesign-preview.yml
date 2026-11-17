@@ -18,7 +18,13 @@ jobs:
       - run: bundle exec jekyll build --safe --destination _site
         env:
           JEKYLL_ENV: production
+      - name: Check desktop and mobile preview
+        run: |
+          npm install --prefix /tmp/redesign-check playwright
+          python3 -m http.server 4000 --directory _site >/tmp/preview-server.log 2>&1 &
+          NODE_PATH=/tmp/redesign-check/node_modules node scripts/check-redesign.cjs
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: redesign-preview
           path: _site
